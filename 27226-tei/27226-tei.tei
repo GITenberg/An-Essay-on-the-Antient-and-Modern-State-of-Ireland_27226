@@ -1,0 +1,3612 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE TEI.2 SYSTEM "http://www.gutenberg.org/tei/marcello/0.4/dtd/pgtei.dtd" [
+
+<!ENTITY u5  "http://www.tei-c.org/Lite/">
+
+]>
+
+<TEI.2 lang="en">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>An Essay on the Antient and Modern State of Ireland</title>
+      <author><name reg="Brooke, Henry">Henry Brooke</name></author>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">Edition 1</edition>
+    </editionStmt>
+    <publicationStmt>
+      <publisher>Project Gutenberg</publisher>
+      <date>November 10, 2008</date>
+      <idno type="etext-no">27226</idno>
+      <availability>
+        <p>This eBook is for the use of anyone anywhere at no cost and
+        with almost no restrictions whatsoever. You may copy it, give it
+        away or re-use it under the terms of the Project Gutenberg
+        License online at www.gutenberg.org/license</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>
+        Created electronically.
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language id="en"></language>
+      <language id="la"></language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date value="2008-11-10">November 10, 2008</date>
+      <respStmt>
+        <name>
+            Produced by Robert Cicconetti, David King, and the Online
+            Distributed Proofreading Team at &lt;http://www.pgdp.net/&gt;.
+        </name>
+      </respStmt>
+      <item>Project Gutenberg TEI edition 1</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<pgExtensions>
+  <pgStyleSheet>
+    .boxed           { x-class: boxed }
+    .shaded          { x-class: shaded }
+    .rules           { x-class: rules; rules: all }
+    .indent          { margin-left: 2 }
+    .bold            { font-weight: bold }
+    .italic          { font-style: italic }
+    .smallcaps       { font-variant: small-caps }
+    .gesperrt        { font-style: italic }
+  </pgStyleSheet>
+
+  <pgCharMap formats="txt.iso-8859-1">
+    <char id="U0x2014">
+      <charName>mdash</charName>
+      <desc>EM DASH</desc>
+      <mapping>--</mapping>
+    </char>
+    <char id="U0x2003">
+      <charName>emsp</charName>
+      <desc>EM SPACE</desc>
+      <mapping>  </mapping>
+    </char>
+    <char id="U0x2026">
+      <charName>hellip</charName>
+      <desc>HORIZONTAL ELLIPSIS</desc>
+      <mapping>...</mapping>
+    </char>
+  </pgCharMap>
+</pgExtensions>
+
+<text lang="en">
+  <front>
+    <div>
+      <divGen type="pgheader" />
+    </div>
+    <div>
+      <divGen type="encodingDesc" />
+    </div>
+
+    <div rend="page-break-before: always">
+      <p rend="font-size: xx-large; text-align: center">An Essay On The</p>
+      <p rend="font-size: xx-large; text-align: center">Ancient and Modern State</p>
+      <p rend="font-size: xx-large; text-align: center">Of Ireland</p>
+      <p rend="font-size: large; text-align: center">With the Various Important Advantages</p>
+      <p rend="font-size: large; text-align: center">Thereunto Derived,</p>
+      <p rend="font-size: large; text-align: center">under the auspicious Reign of His most sacred Majesty</p>
+      <p rend="font-size: large; text-align: center">King GEORGE the Second.</p>
+      <p rend="font-size: large; text-align: center">Including a particular Account</p>
+      <p rend="font-size: large; text-align: center">of the great and glorious</p>
+      <p rend="font-size: large; text-align: center">St. Patrick</p>
+      <p rend="font-size: large; text-align: center">By</p>
+      <p rend="font-size: x-large; text-align: center">Henry Brooke</p>
+      <p rend="text-align: center">Dublin: Printed</p>
+      <p rend="text-align: center">London: Re-Printed</p>
+      <p rend="text-align: center">for R. Griffiths.</p>
+      <p rend="text-align: center">MDCCLX.</p>
+    </div>
+    <div rend="page-break-before: always">
+      <head>Contents</head>
+      <divGen type="toc" />
+    </div>
+  </front>
+<body>
+
+<pb n='003'/><anchor id='Pg003'/>
+
+<div rend="page-break-before: always">
+<index index="toc"/>
+<index index="pdf"/>
+<head>Dedication.</head>
+
+<p>
+TO
+</p>
+
+<p>
+<hi rend='smallcaps'>Matthew M<hi rend="vertical-align: super">c</hi>. Namara</hi>,
+</p>
+
+<p>
+Of <hi rend='italic'>LIMERICK</hi>, Esq;
+</p>
+
+<p>
+<hi rend='smallcaps'>Counsellor</hi> at LAW.
+</p>
+
+<p>
+Justly sensible, Sir, how
+sincerely You have the Character
+and Esteem of our Native
+Country at Heart, I take Leave
+to offer to Your Perusal, and
+commend to Your favourable Acceptance,
+the following Sheets.
+</p>
+
+<p>
+What gave them Rise, was my happening,
+some Time since, to have fallen into
+Company with two or three sprightly young
+Gentlemen, then just returned from their
+Continental Rambles,&mdash;who&mdash;altho' little
+burthened with the Religion, Laws, Learning,
+Policy, Customs, Habits, Manners, or
+Languages of any, or the several Countries
+they had scampered thro', affected, nevertheless,
+an high Contempt for this,&mdash;their
+Native.
+</p>
+
+<pb n='004'/><anchor id='Pg004'/>
+
+<p>
+I listened with silent Indignation, and
+determined to contribute my Mite towards
+giving such unattentive, uninformed
+Youths, a more adequate Idea of this Kingdom,
+under its ancient and under its present
+happy Establishment.
+</p>
+
+<p>
+The common Accidents of Time must
+lead them by better Authority to clearer
+Knowledge: In the mean while, I profess
+my Obligations to them, as they have given
+me this Opportunity of declaring my Regard
+to my Country in general, and the
+particular Attachments that ever bind me,
+in the strictest Sense of Fidelity and Esteem,
+to a Friend so worthy as You have
+been to,
+</p>
+
+<p>
+Sir,<lb/>
+Your very obliged, and<lb/>
+Most obedient Servant.
+</p>
+
+</div>
+
+<pb n='005'/><anchor id='Pg005'/>
+
+<div rend="page-break-before: always">
+<index index="toc"/>
+<index index="pdf"/>
+<head>Essay.</head>
+
+<p>
+In a Nation, where almost every
+Gentleman is better acquainted, and
+more conversant, with the Nature
+and Circumstances of other Countries
+than those of his own, the
+Publication of such Hints as may somewhat
+contribute to remove so odd an Inattention, and
+induce those far better qualified to render a Subject
+so interesting some Justice, will not, I
+hope, be deemed an Impertinence; in one especially
+who, by this Essay, however feeble, hath
+nothing beside the Honour and Advantage of
+<pb n='006'/><anchor id='Pg006'/>
+<hi rend='italic'>Ireland</hi> in View, a Kingdom whereof he is, without
+Vanity, proud of being a Native.
+</p>
+
+<p>
+As the Story of Savages and Barbarians can
+contain nothing instructive, or entertaining, the
+<hi rend='italic'>Antemilesian</hi> Inhabitants of this Land having
+been mostly such, and all surviving Accounts
+of them almost totally overcast with Fable, we
+are therefore, in treating of the antient <hi rend='italic'>Scotia</hi>, or
+modern <hi rend='italic'>Ireland</hi>, to refer principally to three
+distinguished æras, whereof the <emph>first</emph> is, its
+being peopled by an <hi rend='italic'>Iberian</hi> or <hi rend='italic'>Spanish</hi>
+Colony: The <emph>second</emph>, truly glorious, the Arrival of St.
+<hi rend='italic'>Patrick</hi>, in his most salutary Mission: The <emph>third</emph>
+and last, its Cession to <hi rend='italic'>Henry</hi> the Second, King
+of <hi rend='italic'>England</hi>, (the first of the Royal Race of
+<hi rend='italic'>Plantagenet</hi>) partly from a pretended Title of
+<hi rend='italic'>Adrian</hi> the Fourth, Pope of <hi rend='italic'>Rome</hi>; partly
+from the restless and insatiable Desires of <hi rend='italic'>Henry</hi>;
+<emph>more</emph> from the manifold Infirmities of the then reigning
+<hi rend='italic'>Irish</hi> Chiefs&mdash;but above all, from the peculiarly
+adverse Fate of <hi rend='italic'>Roderick</hi>, the last of our
+Kings.
+</p>
+
+<p>
+The assiduous, exact, and candid Author of the
+<hi rend='italic'>Dissertations</hi>,<note place='foot'><hi rend='italic'>Dublin</hi>,
+1753, <hi rend='italic'>M. Reilly</hi>, Editor.</note> lately published, on the Origin,
+Government, Letters, Sciences, Religion,
+Manners and Customs of the antient Inhabitants
+of this Country, hath put all those Matters in
+so clear and happy, and, at the same Time, in so
+strong a Light, by the Powers of various foreign
+Testimonies, of undeniable Authenticity,
+coincident with our own, that scarce any Thing
+new can be offered on the same Subject.
+</p>
+
+<p>
+It may, however, in general be observed,
+that <hi rend='italic'>Milesius</hi>, a <hi rend='italic'>Spanish</hi> Prince, so far
+back as the Reign of <hi rend='italic'>Solomon</hi> (instigated by Necessity,
+or induced by Ambition) with a considerable
+<pb n='007'/><anchor id='Pg007'/>
+Number of Associates and Followers,
+landed from the Western Parts of <hi rend='italic'>Spain</hi>, on the
+Southern Coasts of this Island, where it is probable
+they met little, or but faint Opposition,
+from wild and undisciplined Inhabitants.
+</p>
+
+<p>
+Those People, from their early Knowledge
+of the <hi rend='italic'>Phœnician</hi> Arts and Letters, imported
+such Rudiments of Government and Learning,
+as those primitive Times admitted; a Truth
+visible from the Similarity or rather Identity of
+the <hi rend='italic'>Phœnician</hi> and <hi rend='italic'>Scotic</hi> Alphabet.
+</p>
+
+<p>
+This antient Colony quietly settled here, remote
+from the Storms and Revolutions of the
+greater World, and secured by Situation from
+its hostile Incursions, there is no Doubt but the
+Cultivation of Religion, Philosophy, Politicks,
+Poetry, and Musick, became the chief Objects
+of popular Study and Application: The Spirit
+of Ambition in succeeding Ages, with its unhappy
+concomitant Train of Sedition, Faction,
+and Violence, the foreign Invasions, and often
+the intestine Oppressions and Calamities, to
+which our neighbouring Nations were subject,
+calling forth the protective or conciliating Aids
+of those ancient Heroes, made them great Masters
+also in the Art military.
+</p>
+
+<p>
+The Pentarchy originally formed by those
+<hi rend='italic'>Iberian</hi> or <hi rend='italic'>Celtic Spaniards</hi>, with a
+popular Right of Election, was certainly a Kind of Government
+extremely consistent with the Essence and
+Genius of true Liberty, and a System derived
+from the Patriarchs themselves. For when the
+various Necessities of Society required a Subordination,
+together with some stated Maxims to
+go by, to avoid the confused and promiscuous
+Intercourse in a State of Nature; then did the
+People elect the most Virtuous and Wise, to lead
+<pb n='008'/><anchor id='Pg008'/>
+and conduct them in Times of War and Trouble;
+to govern, inform, and protect them, in
+milder and more auspicious Seasons. Then was
+the Motto of the Crown, or of the chief Ensign
+of Pre-eminence, <hi rend='italic'>Digniori detur</hi>, and so continued
+till the Degeneracy of Time, and the
+baneful Growth of Avarice and Pride, with the
+feverish Lust of Power, perverted it to&mdash;<hi rend='italic'>Rapiat
+Fortior</hi>!
+</p>
+
+<p>
+Such, thro' a long Succession of Ages, was
+the Condition, and such at length the Fate of
+this Kingdom, destroyed after a longer Continuance
+than any other can boast, by the Abuse
+of its own Powers; a sure Argument that all
+created Beings, all sublunary Institutions, however
+wisely composed, in the very Essence of
+their Creation, and in the very Rudiments of
+their Formation, comprehend, at the same Time,
+the Seeds of Dissolution: Yet it is not more remarkable
+than true, that in the most boisterous
+Periods of this Kingdom's antient Establishment,
+the Arts and Sciences, with the fundamental
+Principles of Constitution, were preserved
+and cherished with inviolable Assiduity.
+The Priests, Philosophers, Advocates, Annalists,
+Poets and Musicians, were obliged to preserve
+Religion, political Wisdom, Law, History, <hi rend='italic'>&amp;c.</hi>
+hereditarily in their respective Tribes, and to
+educate in these different Branches the Chiefs
+and Nobles of the Land, for which they were
+graciously maintained in secure and splendid
+Tranquillity: Those Sages attended the National
+Conventions, where all publick Acts were religiously
+recorded, and all Abuses of Power and
+Government retrenched or reformed; nor were
+they permitted, except in Case of extraordinary
+Necessity, or uncommon Merit, to deviate from
+<pb n='009'/><anchor id='Pg009'/>
+their proper and primitive Spheres of Action:
+Since, where an harmonious Subordination of
+Rank and Order hath not been duly preserved,
+even in free Estates, Liberty itself (wisely attempered,
+the greatest of all social Blessings)
+hath often, from Abuse and Neglect, sickened
+into Licentiousness, the immediate lewd Mother
+of Anarchy! In the visible Creation, the direct
+Result of infinite Wisdom, the lesser Planets do
+not interfere with, much less shock or oppose
+the Motions and Revolutions of the greater;
+they constantly keep the Distances first prescribed
+them, and all move regularly to their
+respective Ends. The most verdant and fragrant
+Meadows may, from the too frequent Irruption
+of muddy Waters, degenerate into
+noxious Marshes, if some Care was not taken
+to divert those impure Gushings into their proper
+Channels. Hence it may be inferred, that
+laying open the most honorary, as well as important
+and useful Professions of Society, to the
+Intrusion, or rather pyratical Invasions, of the
+Scum and Dregs of the People, cannot, however
+varnished over with the fictitious Colourings
+of pretended Liberty, consist with true Political
+Wisdom.
+</p>
+
+<p>
+Those ancient <hi rend='italic'>Sophi</hi> and <hi rend='italic'>Literati</hi> enjoyed
+their Places with the greater Security, that they
+were uninvadable by the inferior Classes of Mankind;
+with the greater Content and Chearfulness,
+that much Esteem and Emolument were
+connected with them: The Priest and Advocate
+informed and directed the Conscience and Conduct;
+the Historian and Annalist recorded the
+Institutions; the Poet and Musician celebrated
+and sung the Exploits of their Kings and Leaders:
+No Wonder then this Kingdom should
+<pb n='010'/><anchor id='Pg010'/>
+have been revered at Home, and admired Abroad;
+when Religion formed, Erudition nurtured,
+Philosophy strengthened, History preserved,
+Rhetorick adorned, Musick softened,
+and Poesy refined, the National Wisdom and
+Accomplishments; to all which was added, a
+thorough Knowledge of Tactics, and great
+Skill and Agility in all the athletick Arts, and
+bodily Exercises.
+</p>
+
+<p>
+In the Versions of some original Codes exported
+by our Countryman, the learned and
+pious St. <hi rend='italic'>Fiechry</hi>, still extant in the
+<hi rend='italic'>Navarre</hi> Library at <hi rend='italic'>Paris</hi>, the
+Constitutional Wisdom of <hi rend='italic'>Ireland</hi> appears in a clear and happy
+Light: Persons, Things, Actions, and Expressions,
+were cautiously attended to, by the Laws; <emph>Persons</emph>,
+in their Minority, Youth, and Manhood,
+according to their different Ranks in the State,
+so as by Care, Education, and Discipline, to
+render them, some subservient, others useful,
+some beneficial, and others ornamental thereunto.
+<emph>Things</emph>, so carefully, as to prevent, by
+prohibatory Laws, Wastes of whatsoever Kind,
+and to ascertain to each Individual, as well as
+Society, their proper and distinct Rights. <emph>Actions</emph>,
+by directing those in general, and particular,
+to the Honour of the Deity and Welfare
+of the Community: <emph>Expression</emph>, by the penal
+Interdiction of prophane Cursing and Swearing,
+Obscenity, Scurrility, Calumny, and Detraction,
+yet with a full Indulgence of proper Satire
+against such as merited popular Reprehension,
+or Contempt; the Satirist's Pen in those
+Days being as much dreaded, or rather more
+so, than the Magistrate's Rod, and consequently
+as diligently avoided by a Demeanour absolutely
+irreproachable.
+</p>
+
+<pb n='011'/><anchor id='Pg011'/>
+
+<p>
+It appeareth that, under the antient Government
+of <hi rend='italic'>Ireland</hi>, the Education of the landed
+Gentry, when Luxury, with its wasteful Catalogue
+of Vices, had not rendered Property so
+mutable and wavering as in modern Ages,
+was provided for; whether by the immediate
+Care of Parents, or essential Attention of Guardians,
+by the Laws of the Land; in order that
+Gentlemen should, to the Antiquity of Birth
+and Possession, add the important Dignity of
+Learning, and social Refinement of Arts: Since
+a Man at the Head of an original Estate, who
+should want the necessary Cultivation of Letters,
+was considered only as a Peasant in Disguise,
+and not more respected than a Hewer of
+Wood, or Drawer of Water.
+</p>
+
+<p>
+In these Writings of St. <hi rend='italic'>Fiechry</hi>, the legislative
+Wisdom of <hi rend='italic'>Olam-Fodla</hi>; the philosophically-religious
+Capacity of <hi rend='italic'>Cormac-O Quin</hi>, who,
+from the pure Light of Nature, in a great Measure
+defeated the absurd <hi rend='italic'>Polytheism</hi> of the
+<hi rend='italic'>Druids</hi>; the consummate Integrity and Impartiality of
+<hi rend='italic'>Federach</hi> the Just, and <hi rend='italic'>Moran</hi> his Chief
+Justice; the Magnanimity of <hi rend='italic'>Con-Ked-Cathagh</hi>; the Conquests
+of <hi rend='italic'>Kineth Mac Alpin</hi>; the long, glorious,
+and peaceful Reign of <hi rend='italic'>Conary</hi> the Great,
+<hi rend='italic'>coæval</hi> with the Birth of our Blessed Lord and
+Saviour <hi rend='italic'>Jesus Christ</hi>, (undoubtedly the happiest,
+brightest, and most blissful Period the World
+ever saw;) are all displayed in a copious masterly
+Style, yet with strict chronological Exactness.
+</p>
+
+<p>
+This learned St. <hi rend='italic'>Fiechry</hi> was Founder of the
+University in <hi rend='italic'>Paris</hi>, in the Beginning of the
+8th Century. The better to enable him to carry
+on that noble Work, he obtained of <hi rend='italic'>Charles</hi> the
+Great a Tax on all Wheel-Carriages, within
+<pb n='012'/><anchor id='Pg012'/>
+the Barriers of that City: Whence, a Hackney-Coach
+is at this Day technically term'd <hi rend='italic'>Fiacre</hi>.
+</p>
+
+<p>
+<hi rend='italic'>Charles</hi> the Great, in order to repair the cruel
+and truly lamentable literary Dilapidations of
+the ferocious North-men, invited Numbers of
+the learned and pious <hi rend='italic'>Irish</hi> to the Continent,
+where he established and entertained them with
+Dignity, Tenderness, and Respect. In a curious
+Manuscript of <hi rend='italic'>Nicholaus Gurtlerus</hi>, (now
+in the <hi rend='italic'>French</hi> King's <hi rend='italic'>Parisian</hi> Library)
+Author of the <hi rend='italic'>Origines Mundi</hi>, where he alludes to these
+Times, you find the following favourable, but true Account of
+<hi rend='italic'>Ireland</hi>.&mdash;<foreign lang="la"
+rend="font-style: italic">Temporibus illis, barbaris
+Normannorum Cohortibus undequaque irrumpentibus,
+Religio, Fides, Philosophia, Virtus, Hospitalitas,
+Fortitudo, Castitas, necnon et Amœniores
+omnium generum Artes, Hibernia solummodò natali,
+veluti Solo, viguerunt</foreign>; little Wonder that
+<hi rend='italic'>Ireland</hi> should have been esteemed the
+<hi rend='italic'>Ierne</hi>, or sacred Isle of the <hi rend='italic'>Greeks</hi>, the
+<hi rend='italic'>Insula Sanctorum</hi>, or Island of Saints of the
+<hi rend='italic'>Romans</hi>.&mdash;Would to
+Heaven our Countrymen had, upon all considerable
+Occasions, recollected those deserved Encomiums,
+thereby to approve them worthy their
+applauded Origin, and native Soil!
+</p>
+
+<p>
+We now proceed to consider <hi rend='italic'>Ireland</hi> in her
+happiest and brightest View, after the Admission
+and Propagation of Christianity. It is certain
+there were many Christians in <hi rend='italic'>Ireland</hi>, before
+the Arrival of <hi rend='italic'>Palladius</hi> in 431, or of St.
+<hi rend='italic'>Patrick</hi> the Year following: St. <hi rend='italic'>Kieran</hi>,
+St. <hi rend='italic'>Ailbe</hi>, St. <hi rend='italic'>Declan</hi>, and St.
+<hi rend='italic'>Ibar</hi>, whom <hi rend='italic'>Ussher</hi> calls the
+Precursors, or Forerunners of St. <hi rend='italic'>Patrick</hi>, are
+pregnant Proofs of this; they were of the Birth of <hi rend='italic'>Ireland</hi>,
+from whence they travelled to <hi rend='italic'>Rome</hi>,
+in Search of Education and Learning, where
+<pb n='013'/><anchor id='Pg013'/>
+they lived some Years, were ordained, and returned
+Home about the Year 402.
+</p>
+
+<p>
+It seems that those early Preachers confined
+their Labours to particular Places, in which they
+had considerable Success, but fell very short of
+converting the Body of the Nation: However,
+they sowed the Seed which St. <hi rend='italic'>Patrick</hi> came
+after to water: And it is certain that St. <hi rend='italic'>Patrick</hi>
+was so well satisfied with the Progress they
+made, in their particular Districts in <hi rend='italic'>Munster</hi>,
+that this was the last Province in <hi rend='italic'>Ireland</hi> he
+thought proper to visit. That there were many
+Christians in <hi rend='italic'>Ireland</hi>, at this Period, seems to
+be confirmed by <hi rend='italic'>Prosper</hi>, who, in giving an
+Account of the Mission of <hi rend='italic'>Palladius</hi>, says, that
+he was ordained by Pope <hi rend='italic'>Celestin</hi>, and sent the
+first Bishop to the <hi rend='italic'>Scots</hi> believing in Christ.
+This Passage can mean nothing else, but that
+<hi rend='italic'>Palladius</hi>, born in Britain, was sent to the Scots
+[i.e. the <hi rend='italic'>Irish</hi>] who had already formed Churches
+under <hi rend='italic'>Kieran</hi>, <hi rend='italic'>Ailbe</hi>,
+<hi rend='italic'>Declan</hi> and <hi rend='italic'>Ibar</hi>; and so
+the Bishop of St. <hi rend='italic'>Asaph</hi> expounds it. This then
+was the next Attempt that was made for the Conversion of the
+<hi rend='italic'>Irish</hi>: <hi rend='italic'>Palladius</hi> engaged in a
+more ample and extensive Design than his Predecessors,
+yet he failed in the Execution of it,
+stay'd but a short Time in <hi rend='italic'>Ireland</hi>, and did little
+worth remembring; he converted, however, a
+few, and is said to have founded three Churches;
+but he had neither Courage to withstand the
+Fierceness of the heathen <hi rend='italic'>Irish</hi>, nor Abilities,
+for Want of the Language, proper for the
+Work.
+</p>
+
+<p>
+<hi rend='italic'>Nathi</hi>, the Son of <hi rend='italic'>Garcon</hi>, an
+<hi rend='italic'>Irish</hi> Prince, opposed his preaching; upon which
+<hi rend='italic'>Palladius</hi> left the Kingdom, and died in the Land of the
+<hi rend='italic'>Picts</hi>, on the 15th of <hi rend='italic'>December</hi>, 431.
+This
+<pb n='014'/><anchor id='Pg014'/>
+glorious Work was reserved for St. <hi rend='italic'>Patrick</hi>, to
+whose holy Life, divine Mission, and extraordinary
+Success, I refer the Reader. This great
+Apostle of the <hi rend='italic'>Irish</hi> founded and built the Cathedral
+Church of <hi rend='italic'>Ardmagh</hi>, about the Year
+444, or 45, which, from that early Period to
+this, hath continued the Metropolitan Church
+of all <hi rend='italic'>Ireland</hi>. So that 1194 Years passed away
+from the Founding of the City of <hi rend='italic'>Rome</hi>, to that
+of <hi rend='italic'>Ardmagh</hi>.
+</p>
+
+<p>
+The various and most signal Blessings derived
+to this Nation, from the salutary Mission of this
+illustrious Saint, require, in Gratitude, our
+giving the Reader yet a further Account of the
+Author of such Happiness and Glory to <hi rend='italic'>Ireland</hi>.
+</p>
+
+<p>
+He was born in the extreme Bounds of <hi rend='italic'>Britain</hi>,
+(in that Part thereof which is now comprehended
+within the Limits of the modern
+<hi rend='italic'>Scotland</hi>) at a Village called <hi rend='italic'>Banaven</hi>,
+in the Territory of <hi rend='italic'>Tabernia</hi>, (as he himself saith in
+his Confession) in <hi rend='italic'>Vico Banaven Taberniæ</hi>, &amp;c.
+He tells us that he was born of a good Family.
+<foreign lang="la" rend="font-style:italic">Ingennuus fui secundum Carnem.</foreign>
+His Father was <hi rend='italic'>Calphurnius</hi>, a Deacon, who was the Son
+of <hi rend='italic'>Potitus</hi>, a Priest; from whence may be
+clearly inferred that the Clergy were not restrained
+from Matrimony in that Age. He was
+just advanced into his sixteenth Year, when he
+was taken Captive, the Manner of which is thus
+related by St. <hi rend='italic'>Evin</hi> and others: His Father,
+Mother, Brother, and five Sisters, undertook a
+Voyage to <hi rend='italic'>Aremorick Gaul</hi>, (now called <hi rend='italic'>Bass
+Bretagne</hi>) to visit the Relations of his Mother <hi rend='italic'>Couchessa</hi>.
+It happened about this Time, that the
+seven Sons of <hi rend='italic'>Factmude</hi>, a <hi rend='italic'>British</hi>
+Prince, were banished, and took to the Sea; that, making
+an Inroad into <hi rend='italic'>Aremorick Gaul</hi>, they took
+<hi rend='italic'>Patrick</hi>
+<pb n='015'/><anchor id='Pg015'/>
+and his Sister, <hi rend='italic'>Lupita</hi>, (some say <hi rend='italic'>Tigrida</hi>
+also) Prisoners. They brought their Captives to the North of
+<hi rend='italic'>Ireland</hi>, and sold <hi rend='italic'>Patrick</hi> to
+<hi rend='italic'>Milcho Mac Huanan</hi>, a Prince of <hi rend='italic'>Dalaradia</hi>:
+Others tell the Story in a different Manner, and
+with a stronger Degree of Probability. That the <hi rend='italic'>Romans</hi>
+having deserted <hi rend='italic'>Britain</hi>, to preserve
+their own Country from the barbarous Incursions
+of the <hi rend='italic'>Northern Hive</hi>, the <hi rend='italic'>Irish</hi> made
+frequent Conquests, in <hi rend='italic'>North Britain</hi> especially, whence
+returning victorious, in one of those Expeditions
+among others brought <hi rend='italic'>Patrick</hi> Captive. But in
+this they all agree, and he himself confirms it,
+that he continued Prisoner in <hi rend='italic'>Ireland</hi> six Years;
+he was sold to <hi rend='italic'>Milcho</hi> and his three Brothers,
+which gave Occasion of his changing his Name into <hi rend='italic'>Cathraigh</hi>,
+or rather <hi rend='italic'>Ceathir-Tigh</hi>, because
+he served four Masters; <hi rend='italic'>Ceathir</hi> signifying four,
+and <hi rend='italic'>Tigh</hi> a House or Family. <hi rend='italic'>Milcho</hi>
+observing the Care and Diligence of his new Servant,
+bought out the Shares of his Brothers, and made
+him his own Property. He sent him to feed his Hogs on
+<hi rend='italic'>Sliev-Mis</hi>. And St. <hi rend='italic'>Patrick</hi> himself
+tells us his Behaviour in this Office.
+</p>
+
+<p>
+<q>My constant Business was to feed the Hogs.
+I was frequent in Prayer; the Love and Fear
+of God more and more inflamed my Heart;
+my Faith was enlarged, and my Spirit augmented,
+so that I said an hundred Prayers by
+Day, and almost as many by Night. I arose
+before Day to my Prayers, in the Snow, in the
+Frost, and in the Rain, and yet I received no
+Damage; nor was I affected with Slothfulness;
+for then the Spirit of God was warm within
+me.</q> It was here he perfected himself in the
+<hi rend='italic'>Irish</hi> Language, the wonderful Providence of
+God visibly appearing in this Instance of his
+<pb n='016'/><anchor id='Pg016'/>
+Captivity, that he should have the Opportunity
+in his tender Years of becoming well acquainted
+with the Language, Manners, and Dispositions
+of that People, to whom he was intended as a
+future Apostle. He continued six whole Years
+in Servitude, and in the seventh was released.
+There seems to have been a Law in <hi rend='italic'>Ireland</hi> for
+this Purpose, agreeable to the Institution of
+<hi rend='italic'>Moses</hi>, that a Servant should be released the
+seventh Year.
+</p>
+
+<p>
+Having parted from his Master, after a great
+Variety of Distresses, he at length arrived to his
+Parents, who received him with extraordinary
+Joy; with these he remained two Years, and
+probably would much longer, had he not by a
+Vision been quickened to a more active and glorious
+Life. In this he thought he saw a Man
+coming to him from <hi rend='italic'>Ireland</hi>, whose Name was
+<hi rend='italic'>Victoricus</hi>, with a great Number of Letters; that
+he gave him one of them to read, in the Beginning
+of which were contained these Words, <hi rend='italic'>Vox-Hiberionacum</hi>,
+the Voice of the <hi rend='italic'>Irish</hi>: While
+he was reading this Letter, he thought the same
+Moment, that he heard the Voice of the Inhabitants
+who lived near the Wood of <hi rend='italic'>Foclut</hi>, in
+the Barony of <hi rend='italic'>Tyr-Awley</hi>, and County of
+<hi rend='italic'>Mayo</hi>, hard by the Western Sea, crying to him with an
+audible and distinct Voice, <q>We intreat thee,
+holy Youth, to come and walk among us.</q> He
+was greatly amazed at this Vision, and awoke;
+it animated him, however, to his future Studies
+and heavenly Progress; so far even, that he
+tells us himself, he thanked God, that after many
+Years he had dealt with the <hi rend='italic'>Irish</hi>, according to
+their crying out.
+</p>
+
+<p>
+These early Scenes of this great Saint's Life,
+should, among many others, serve as lessons of
+<pb n='017'/><anchor id='Pg017'/>
+Charity, Consideration, and Humility, to the
+Rich, the Great, the Proud, and the Wanton;
+who may recollect that, altho' he was well born,
+he was nevertheless, in the most vigorous Season
+of Life, a Slave and a Swine-Herd: Happy,
+though wretched Servitude! In which, his leisure
+Hours, mostly employed in Christian Confidence
+and Prayer, made him so signally the
+Favourite of Heaven, that from those cloudy
+Dawnings, he in Process of Time became a
+learned Doctor, a sanctified Missioner, a venerable
+Prelate, an eminent Primate, a national Apostle,
+and the bright Instructor of Kings! Such were
+the fruitful Rewards of uninterrupted unshaken
+Devotion, Piety, and Zeal! From this Time
+he formed the steady Resolution of converting
+the <hi rend='italic'>Irish</hi>; and, the better to accomplish the heavenly
+Task, he undertook a laborious Journey
+to foreign Countries, to enrich his Mind with
+Learning and Experience.
+</p>
+
+<p>
+He continued abroad thirty-five Years, pursuing
+his Studies under the Direction principally
+of his Mother's Uncle, St. <hi rend='italic'>Martin</hi>, Bishop of
+<hi rend='italic'>Tours</hi>, who had ordained him Deacon; and after
+his Death, partly with St. <hi rend='italic'>German</hi>, Bishop of
+<hi rend='italic'>Auxerre</hi>, (who ordained him a Priest, and called
+his Name <hi rend='italic'>Magonius</hi>, which was the third Name
+he was known by,) partly among a Colony of <hi rend='italic'>Hermits</hi> and
+<hi rend='italic'>Monks</hi>, in some Islands of the <hi rend='italic'>Tuscan</hi>
+Sea; and he employed a good Part of the
+Time in the City of <hi rend='italic'>Rome</hi>, among the Canons
+Regular of the <hi rend='italic'>Lateran</hi> Church: At length,
+having his Soul thoroughly tempered with
+religious Virtue, enlightened with the true
+Evangelical Faith, and his Understanding enlarged
+by the most profitable and edifying
+Studies, he arrived in <hi rend='italic'>Ireland</hi> about the 60th
+<pb n='018'/><anchor id='Pg018'/>
+Year of his Age; and in the Year of our Lord
+432, landed in the County of <hi rend='italic'>Wicklow</hi>, where
+he began his Ministry, by the Conversion of
+<hi rend='italic'>Sinel</hi>, a great Man in that Country, the Grandson
+of <hi rend='italic'>Finchad</hi>, who ought to be remembered,
+as he was the first Fruits of St. <hi rend='italic'>Patrick</hi>'s Mission
+in <hi rend='italic'>Ireland</hi>; he was the 8th in lineal Descent from
+<hi rend='italic'>Cormac</hi>, King of <hi rend='italic'>Leinster</hi>, and came
+afterwards to be enumerated among the Saints of <hi rend='italic'>Ireland</hi>.
+</p>
+
+<p>
+From this Country he sailed to an Island on
+the Coast of the County of <hi rend='italic'>Dublin</hi>, called after
+him <hi rend='italic'>Inis Phadring</hi>, and by the <hi rend='italic'>English</hi>,
+<hi rend='italic'>Holm Patrick</hi> at this Day, where he and his faithful
+Companions rested after their Fatigues. From
+<hi rend='italic'>Inis Phadring</hi>, he sailed Northward to that Part
+of <hi rend='italic'>Ulster</hi> called <hi rend='italic'>Ulidia</hi>, and put in at
+<hi rend='italic'>Inbherslaying</hi> Bay. When he and his Fellow Labourers
+landed, <hi rend='italic'>Dichu</hi>, the Son of <hi rend='italic'>Trichem</hi>, Lord
+of the County, being informed that they were Pirates,
+came out with armed Men in order to
+kill them: But being struck with the venerable
+Appearance of St. <hi rend='italic'>Patrick</hi>, he gave him Audience,
+and listened attentively to the Word of
+Life preached by him; he changed his wicked
+Purpose, believed, and was baptized, and brought
+over all his Family to the Faith: It is further
+observed of him, that he was the first Person in
+<hi rend='italic'>Ulster</hi>, who embraced Christianity. He dedicated
+the Land whereon his Conversion was
+wrought to the Service of God, where a Church
+was erected, changed after to an eminent Monastery.
+He travelled hence by Land to <hi rend='italic'>Clunebois</hi>
+in <hi rend='italic'>Dalaradia</hi>, to endeavour the Conversion
+of his old Master <hi rend='italic'>Milcho</hi>, whose Service he had
+left thirty-eight Years before; but this obstinate
+Prince, hearing of the great Success of St. <hi rend='italic'>Patrick</hi>'s
+preaching, and ashamed to be persuaded
+<pb n='019'/><anchor id='Pg019'/>
+in his old Age, to forsake the Religion of his
+Ancestors, (by one especially who had been his
+Servant, in a most inferior Station,) made a
+funeral Pile of his House and Goods, and by
+the Instigation of the Enemy of Mankind,
+burned himself therein: Thus ended <hi rend='italic'>Milcho McHuanan</hi>.
+</p>
+
+<p>
+Hence St. <hi rend='italic'>Patrick</hi> returned to <hi rend='italic'>Inis</hi>, the
+Habitation of <hi rend='italic'>Dichu</hi>, and in his Journey converted
+great Numbers to the true Faith of <hi rend='italic'>Christ</hi>.
+In some time, he took his Leave of <hi rend='italic'>Dichu</hi>, and
+bent his course Southward by Sea, keeping the
+Coast on his Right-hand, and arrived at Port
+<hi rend='italic'>Colbdi</hi>, where he landed, and committed the
+Care of his Vessel to his Nephew <hi rend='italic'>Luman</hi>,
+desiring him to wait for him there forty Days,
+while he and his Disciples were travelling in the
+inner Parts of the Country to preach the Gospel.
+His Intention in this Journey was, to celebrate the Festival of
+<hi rend='italic'>Easter</hi> in the Plains of <hi rend='italic'>Bregia</hi>, and
+to be in the Neighbourhood of the Great Triennial
+Convention at <hi rend='italic'>Tarah</hi>, which at this Season
+was held by King <hi rend='italic'>Leogair</hi>, and all his Tributary Princes,
+Nobles, <hi rend='italic'>Druids</hi>, <hi rend='italic'>Annalists</hi>,
+<hi rend='italic'>and Fileas</hi>.
+St. <hi rend='italic'>Patrick</hi> wisely foreseeing that whatever Impressions
+he should make on this august Assembly
+must have an Influence on the whole Kingdom,
+and therefore, being supported with invincible
+Christian Fortitude, resolved not to be
+absent from a Place where his Presence was so
+conducive to the Ends of his Holy Ministry.
+</p>
+
+<p>
+Never did the Spirit of popular Freedom
+exert itself more powerfully or harmoniously,
+than in those truly parliamentary Triennial Conventions
+of <hi rend='italic'>Ireland</hi>, where the supreme Monarch,
+the Provincial Kings, the feudatory Lords,
+the Nobles, landed Men, <hi rend='italic'>Druids</hi>, &amp;c. by the
+<pb n='020'/><anchor id='Pg020'/>
+unbiased Suffrages of the People, convened for
+the Peace, good Government and Security of
+each particular Province, as well as those of the
+whole Kingdom. Many Centuries had this
+wise Constitution subsisted here, before our
+Neighbours, even of <hi rend='italic'>South Britain</hi>, knew any
+thing relative to Houses, or Raiment; it being
+notorious that so late as the Arrival of <hi rend='italic'>Julius
+Cæsar</hi> among them, they painted their Bodies,
+to render them terrible, and lived in the open
+Fields. It is really somewhat surprzing that
+People so near in Situation, should differ so
+essentially in Disposition, as the Inhabitants of
+those Islands have in all Ages; Hospitality having
+been the distinguishing Attribute of the <hi rend='italic'>Irish</hi>, and it's
+opposite Defect, that of the <hi rend='italic'>Britons</hi>;
+the Account given of them by <hi rend='italic'>Horace</hi> 1700 and odd Years ago,
+<foreign lang="la" rend='font-style: italic'>Visam Britannes Hospitibus feros</foreign>,
+being as literally applicable to them at this Day,
+where the Force of Education doth not operate
+to mitigate their natural Ferocity.
+</p>
+
+<p>
+But to return: St. <hi rend='italic'>Patrick</hi> in his Way to
+<hi rend='italic'>Tarah</hi>, took up his Lodgings at the House of the
+hospitable <hi rend='italic'>Sesgnen</hi> in <hi rend='italic'>Meath</hi>, who kindly
+received and welcomed him. St. <hi rend='italic'>Patrick</hi> preach'd Christ
+and his Gospel to him; he believed, and was
+baptized with his whole Family.
+</p>
+
+<p>
+From the House of <hi rend='italic'>Sesgnen</hi>, he moved Westward,
+and arrived on <hi rend='italic'>Easter Eve</hi> at
+<hi rend='italic'>Fierta-fir-feic</hi>, on the Northern Banks of the River
+<hi rend='italic'>Boyne</hi>, where he rested, resolving there to prepare for the next
+Day's Solemnity. It was penal for any Person
+at the Time of the Celebration of this solemn
+Convention at <hi rend='italic'>Tarah</hi>, to kindle a Fire in the
+Province, before the King's Bonfire first appeared.
+I am of Opinion this was a religious Ceremony,
+as the chief Deity of the ancient Inhabitants,
+<pb n='021'/><anchor id='Pg021'/>
+in exterior Worship especially, was <hi rend='italic'>Bel</hi>,
+or <hi rend='italic'>Belus</hi>; whence <hi rend='italic'>Apollo</hi> or
+<hi rend='italic'>Ap-haul</hi>, the Son of the Sun, whom they emblematically worshipped,
+by those fiery Offerings; whence the first Day of
+<hi rend='italic'>May</hi>, peculiarly dedicated to this <hi rend='italic'>Bel</hi>,
+is even now in <hi rend='italic'>Irish</hi>, called
+<hi rend='italic'>Lha-Bel-Thinih</hi>, and probably from the same Source may be
+derived the Custom of lighting up Bonfires, and Sops, on the
+Eve of the 24th Day of <hi rend='italic'>June</hi>. St.
+<hi rend='italic'>Patrick</hi> however, either not knowing or not minding this
+Ceremony, lighted up a Fire before his Booth,
+which altho' eight Miles distant from <hi rend='italic'>Tarah</hi>,
+was very visible. It was seen with Astonishment
+from Court, and the <hi rend='italic'>Druids</hi> informed the King,
+that if he did not immediately extinguish the
+Fire, he who kindled it, and his Successors,
+should for ever hold the Principality of <hi rend='italic'>Ireland</hi>;
+which hath hitherto turned out a true Prediction
+of those Heathen Priests, in a Primatial and
+Spiritual Principality.
+</p>
+
+<p>
+The King dispatched Messengers to bring
+<hi rend='italic'>Patrick</hi> before him, and gave his positive Orders,
+that nobody should presume to rise out of his
+Seat, or pay him the least Honour: But <hi rend='italic'>Ere</hi>,
+the Son of <hi rend='italic'>Dego</hi>, ventured to disobey this Command;
+he arose, and offered the Holy Father his
+Seat. St. <hi rend='italic'>Patrick</hi> preached to him and converted
+him. He became a Person of eminent Sanctity,
+and after some Time was consecrated by St.
+<hi rend='italic'>Patrick</hi>, Bishop of <hi rend='italic'>Slain</hi>.
+</p>
+
+<p>
+The Day following, when St. <hi rend='italic'>Patrick</hi> and two
+of his Disciples appeared unexpectedly at Court,
+and preached to the King and his Nobles, <hi rend='italic'>Dubtach</hi>,
+the King's Poet Laureat, payed Honour
+and Respect to the Saint, and was converted
+by his Preaching. <hi rend='italic'>Fiech</hi>, a young Poet, who
+was under the Tuition of <hi rend='italic'>Dubtach</hi>, was also converted,
+<pb n='022'/><anchor id='Pg022'/>
+and afterwards made Bishop of <hi rend='italic'>Sletty</hi>,
+and is said to have been the Author of a celebrated
+Poem, composed in Praise of St. <hi rend='italic'>Patrick</hi>.
+<hi rend='italic'>Anselm</hi>, Arch-Bishop of <hi rend='italic'>Canterbury</hi>,
+relates the Conversion of <hi rend='italic'>Tingar</hi>, the Son of
+<hi rend='italic'>Clito</hi>, (one of the Nobles in this Assembly,) in the same Manner.
+The Queen also, and many others of the
+Court, became Christians; and altho' the King
+held out for a long Time with great Obstinacy,
+yet at last he submitted to be baptized. St. <hi rend='italic'>Patrick</hi>
+is said here to have wrought many Miracles:
+There could not truly, even according to
+the Purposes of human Wisdom, have happened
+a more solemn or weighty Occasion, for God
+Almighty's supporting this Holy Preacher by
+Miracles, than when the collective Body of the
+whole Nation was assembled together; from
+whose Report and Conviction, the Influences of
+his blessed Works and Doctrine must of Course
+spread through the whole Kingdom.
+</p>
+
+<p>
+His Conduct and Proceedings here, with a
+particular Detail of the Miracles wrought by
+him, may be had at large in the History of his
+Life, published by <hi rend='italic'>John Colgan</hi>.
+</p>
+
+<p>
+From <hi rend='italic'>Tarah</hi>, the Saint proceeded next to
+<hi rend='italic'>Talten</hi>, not far from thence, at the Season of the
+Royal Diversions: Here he preached to <hi rend='italic'>Cairbre</hi>,
+and <hi rend='italic'>Conall</hi>, the two Brothers of King
+<hi rend='italic'>Leogin</hi>; the former received him with great Indignity,
+and perversely shut his Ears against his Doctrine;
+but <hi rend='italic'>Conall</hi> believed, and was baptized, and gave
+St. <hi rend='italic'>Patrick</hi> a Place to build a Church on.
+</p>
+
+<p>
+This <hi rend='italic'>Conall</hi> was Great-Grand-Father to
+<hi rend='italic'>Columb-Kill</hi>. He spent the Remainder of this Year
+in <hi rend='italic'>Meath</hi> and <hi rend='italic'>Louth</hi>, and the Districts
+adjoining, preaching, and converting great Numbers
+of People. The <hi rend='italic'>Taltenian</hi> Sports above-mentioned,
+<pb n='023'/><anchor id='Pg023'/>
+have been much celebrated by the <hi rend='italic'>Irish</hi>
+Historians, and Antiquaries. They were a kind
+of warlike Exercises, somewhat resembling the
+<hi rend='italic'>Olympick</hi> Games, consisting of Racing, Tilts,
+Tournaments, Wrestling, Leaping, Vaulting,
+and all other manly and martial Exercises,
+which gave Rise to the many hyperbolical
+Tales, formerly related of those <hi rend='italic'>Taltenian</hi> Sports.
+They were exhibited every Year at <hi rend='italic'>Talten</hi>, a
+Mountain in <hi rend='italic'>Meath</hi>, for fifteen Days before,
+and fifteen Days after the First of <hi rend='italic'>August</hi>. Their
+first Institution is ascribed to <hi rend='italic'>Lughaid-lam-fadha</hi>,
+the twelfth King of <hi rend='italic'>Ireland</hi>, who began his
+Reign <hi rend='italic'>A. M.</hi> 2764 (a sufficient Proof of
+<hi rend='italic'>Ireland</hi>'s Antiquity as a Kingdom). They were
+ordained by <hi rend='italic'>Lughaid</hi>, in Gratitude to the Memory
+of <hi rend='italic'>Tailte</hi>, the Daughter of <hi rend='italic'>Magh-More</hi>,
+(a Prince of some Part of <hi rend='italic'>Spain</hi>) who having been married
+to <hi rend='italic'>Eochaid</hi>, King of <hi rend='italic'>Ireland</hi>, took the
+same <hi rend='italic'>Lughaid</hi> under her Protection, and had the Care
+of his Education in his Minority. From this
+Princess both the Sports, and the Place where
+they were celebrated, took their Names: From <hi rend='italic'>Lughaid</hi>, the
+First of <hi rend='italic'>August</hi> was called <hi rend='italic'>Lugnasa</hi>,
+or the Memory of <hi rend='italic'>Lughaid</hi>, <hi rend='italic'>Nasa</hi> signifying
+Memory, in the <hi rend='italic'>Irish</hi> Language.
+</p>
+
+<p>
+In the Year of the World 2700, <hi rend='italic'>Gideon</hi> then
+reigning fourth Judge of the <hi rend='italic'>Hebrews</hi>, appear'd
+many Heroes, as <hi rend='italic'>Hercules</hi>, <hi rend='italic'>Orpheus</hi>,
+<hi rend='italic'>Castor</hi>, <hi rend='italic'>Pollux</hi>,
+the <hi rend='italic'>Argonauts</hi>, <hi rend='italic'>Jason</hi>,
+<hi rend='italic'>Laomedon</hi>, <hi rend='italic'>Thesæus</hi>,
+<hi rend='italic'>Dedalus</hi>, &amp;c. The <hi rend='italic'>Amazones</hi>,
+Heroines of <hi rend='italic'>Scythic</hi>
+Extraction, having lost their Husbands in
+Battle, took up Arms themselves, with a manly
+Spirit of Resentment, and (inspired with Love
+of their deceased Husbands, and Grief for so
+great and irretrievable a Loss!) subdued <hi rend='italic'>Asia</hi>,
+and built <hi rend='italic'>Ephesus</hi>. <hi rend='italic'>Hercules</hi> and
+<hi rend='italic'>Thesæus</hi> waged
+<pb n='024'/><anchor id='Pg024'/>
+War against those Heroines, and defeated them,
+more to the Glory of the Vanquished than their
+own, those Matrons having defended themselves
+with surprizing Resolution. They cut off the
+Guards set over them, and escaped the Severity
+and Pride of their Conquerors. <hi rend='italic'>Hercules</hi>, in
+Honour of such extraordinary heroick Females,
+instituted the <hi rend='italic'>Olympick</hi> Games; as likewise did
+<hi rend='italic'>Thesæus</hi>, the <hi rend='italic'>Isthmian</hi>, in the Year of
+the World, about 2700, the <hi rend='italic'>Taltenian</hi> Sports, the very same
+with the <hi rend='italic'>Olympick</hi>, brought sixty-four Years after
+from <hi rend='italic'>Spain</hi> into <hi rend='italic'>Ireland</hi>, by
+<hi rend='italic'>Tailte</hi>, and her Followers.
+Now this <hi rend='italic'>Tailte</hi>, Queen of <hi rend='italic'>Ireland</hi>, was
+the Grand-daughter of an <hi rend='italic'>Amazone</hi> Princess,
+those immortal Females having, with their Progeny,
+Friends and Followers, to avoid the ruinous
+Hostilities of <hi rend='italic'>Hercules</hi> and <hi rend='italic'>Thesæus</hi>,
+sought Shelter in <hi rend='italic'>Spain</hi>, whither they imported the
+Learning of <hi rend='italic'>Trismegistus</hi>, the Grandson of
+<hi rend='italic'>Mercury</hi>, and Glory of <hi rend='italic'>Ægypt</hi>, together
+with all the literary Arts derived into <hi rend='italic'>Greece</hi>, from
+<hi rend='italic'>Phœnicia</hi>, by <hi rend='italic'>Cadmus</hi>, the Brother
+of <hi rend='italic'>Europa</hi>, about the Year of the World 2530,
+<hi rend='italic'>Othoniel</hi> then reigning the first Judge of the
+<hi rend='italic'>Hebrews</hi>. The Posterity of this ancient and illustrious Colony,
+about the Year of the World 3000, (<hi rend='italic'>Solomon</hi> then
+reigning with great Splendour, third King of
+the <hi rend='italic'>Hebrews</hi>) settled in this Kingdom, as before
+observed: So that, by an impartial Estimate of
+Dates, Periods, and Facts, our Origin is well
+ascertained, our early Possession of Letters, wise
+Policy, and the politer Arts, proved, and the
+Remark of an <hi rend='italic'>Italian</hi> Monk in the 7th Century,
+from the University of <hi rend='italic'>Mongret</hi>, in an Epistle
+to his Correspondent at <hi rend='italic'>Rome</hi>, justified,
+<foreign lang="la" rend='font-style: italic'>Nil mirum
+Populum hunc Celtico Scythicum è præclarâ
+Amazonidum stirpê oriundum, verâ Religionê et
+<pb n='025'/><anchor id='Pg025'/>
+incorruptâ Fide illuminatum, sapientia Doctrina
+optimisque Morbidus ornatum, viros fortes et Fæminas
+castas plerumque procreare</foreign>. A Rescript of
+this Original Epistle still extant, in the <hi rend='italic'>Vatican</hi>
+Library, some Years ago in the Hands of Father
+Don <hi rend='italic'>Levy</hi>, may therefore, I believe, be
+found in the College of <hi rend='italic'>Lombard</hi> at <hi rend='italic'>Paris</hi>.
+</p>
+
+<p>
+In this shining Period were Cathedrals and
+Churches erected, Universities founded and
+established, Colleges, Seminaries and Schools
+propagated in many Parts of this Kingdom,
+which, at the same Time, became a peaceful
+and hospitable Retreat to religious and learned
+Men, disturbed on the Continent of <hi rend='italic'>Europe</hi>, by
+the frequent Invasions, and cruel Hostilities of
+the North-men, whose Piracies and Barbarity,
+even <hi rend='italic'>Ireland</hi> could not always escape! For,
+from the Time of <hi rend='italic'>Artigrius</hi>, Archbishop of
+<hi rend='italic'>Ardmagh</hi> in 822, for near 200 Years the cruel
+<hi rend='italic'>Danes</hi> miserably ravaged this Kingdom, destroying,
+by Fire and Sword, every Establishment,
+as well of Piety as Learning, (to both which,
+and to all religious Maxims of civilized Society,
+they had been avowed implacable Enemies) till
+they were themselves, in 1014, totally defeated
+at <hi rend='italic'>Clontarf</hi>, by the invincible Arms of the Great
+Monarch, <hi rend='italic'>Bryan Borou</hi>, from whom descended
+a Race conspicuous for exemplary Prelates, heroick
+Leaders, and steady Patriots.
+</p>
+
+<p>
+The learned Author of the <hi rend='italic'>Dissertations</hi> before-mentioned,
+charges this Hero with a Violation
+of the Constitution of his Country: Yet the
+Violation seems of far earlier Date, when the
+supreme Monarchy was, by the <hi rend='italic'>Hugonian</hi> Law,
+inalienably united to one Family, whose Sovereignty,
+however founded originally, whether
+by Birth, or Election, was essential to the public
+<pb n='026'/><anchor id='Pg026'/>
+Welfare: For we must allow that the Preservation
+of the People is the principal Law to which all others are subordinate.
+<foreign lang="la" rend='font-style: italic'>Salus Populi
+suprema Lex</foreign>; and equally, that not only the
+Necessities, but the Safety also of the People, at
+that Time of Danger and Distraction, eagerly
+called forth the Conduct and Valour, the protective
+and restorative Abilities of that great and
+virtuous Man, of whom a faithful Historian,
+in his Detail of the Battle of <hi rend='italic'>Clontarf</hi>, says;
+<foreign lang="la" rend='font-style: italic'>Integrâ prius adept a Victoriâ rebus
+humanis eodem Diê excessit vir Bellô ac Pacê summus, Justitiæ,
+Religionis, Literarum, Cultor eximius, et cum Carolo
+Magno utique comparandus</foreign>.
+</p>
+
+<p>
+In the 239th Page of the <hi rend='italic'>Dissertations</hi>, the excellent
+Author expresseth himself as follows:
+</p>
+
+<p>
+<q>I now proceed to give some Account of the
+second Royal House of <hi rend='italic'>Scots</hi>, the oldest of the
+<hi rend='italic'>Milesian</hi> Race, and the Posterity of
+<hi rend='italic'>Eber</hi>.</q> This
+Race then being avowed the oldest, in Respect
+of Primogeniture, must, of Course, have been
+prior in Point of Dignity and Sway, or at least,
+equally entitled to the Election of the People
+to such Ranks; were not those by violent Measures
+annexed to the <hi rend='italic'>Heremonian</hi> Line: Yet, however
+this might have been, certain it is, that no
+Houses that we read of, ancient or modern,
+have produced a greater Number of truly heroick
+Princes, or of longer Continuance, than
+those of the North and South <hi rend='italic'>Hy-Nial</hi>; from
+whom also issued many noble Families of real
+Worth, and equal Renown. With <hi rend='italic'>Bryan</hi>, the
+happy Genius of <hi rend='italic'>Ireland</hi>, in a great Measure,
+expired: For the cruel <hi rend='italic'>Danes</hi> had, for near 200
+Years before, so wofully overturned the Universities
+of <hi rend='italic'>Ardmagh</hi>, <hi rend='italic'>Dondaleith-Glass</hi>,
+<hi rend='italic'>Mongret</hi>, and <hi rend='italic'>Lismore</hi>, with all
+other Seminaries of Piety
+<pb n='027'/><anchor id='Pg027'/>
+and Learning, (the only genuine Sources of national
+Greatness, Concord, good Discipline, and
+Happiness) had obliged, in the 8th Century,
+so many learned Men to seek that Shelter and
+Security on the Continent, which the barbarous
+Hostilities, and impious Manners of those Northerns,
+denied them at Home; had made such
+frequent lamentable Breaches in the antient, wise
+Constitution of the Kingdom; had, by the fatal
+Example of their profligate dissolute Lives, so
+vitiated the national Morality; and finally, had
+left behind them so many noxious Seeds of Faction
+and Anarchy, as, in less than two Centuries,
+gave up a Kingdom, of above 2000 Years
+Establishment, the unaccountable Prey of a
+few adventurous <hi rend='italic'>Normans</hi>!
+</p>
+
+<p>
+<hi rend='italic'>Patrick</hi> governed the See of <hi rend='italic'>Dublin</hi> about
+ten Years, and, in a Voyage to <hi rend='italic'>England</hi>, perished
+by Shipwreck, in the <hi rend='italic'>British</hi> Sea, on the
+16th of <hi rend='italic'>October</hi>, 1084; having been sent to
+<hi rend='italic'>Lanfranc</hi>, Archbishop of <hi rend='italic'>Canterbury</hi>,
+by King <hi rend='italic'>Tirdelvac</hi>.
+</p>
+
+<p>
+<hi rend='italic'>Donat</hi>, or <hi rend='italic'>Dongus O'Haingly</hi>, having spent
+some Time in the Study of useful Learning in
+<hi rend='italic'>Ireland</hi>, went over into <hi rend='italic'>England</hi>,
+and became a Benedictine Monk at <hi rend='italic'>Canterbury</hi>. He was afterwards,
+(by the Consent of King <hi rend='italic'>Tirdelvac</hi>, and
+the Clergy of <hi rend='italic'>Dublin</hi>) consecrated,
+<hi rend='italic'>A. D.</hi> 1085, in the Cathedral of
+<hi rend='italic'>Canterbury</hi>, by the before-mentioned
+<hi rend='italic'>Lanfranc</hi>, to whom he made the following
+Profession of Obedience:
+</p>
+
+<p>
+<q>I, <hi rend='italic'>Donat</hi>, Bishop of the See of
+<hi rend='italic'>Dublin</hi> in <hi rend='italic'>Ireland</hi>, do promise
+Canonical Obedience to you, <hi rend='italic'>O' Lanfranc</hi>, Archbishop of the
+holy Church of <hi rend='italic'>Canterbury</hi>, and to your Successors.</q>
+</p>
+
+<p>
+It is evident that the Title of the Kings of
+<hi rend='italic'>England</hi> to this Kingdom, by Papal Donation,
+<pb n='028'/><anchor id='Pg028'/>
+or Appointment, was very insufficient, if not
+absolutely trifling: Nor could a Right of Conquest
+be urged in any Period of the Reign of
+<hi rend='italic'>Henry</hi> the Second, or his Descendants. But
+the Great and Royal Families of <hi rend='italic'>Ireland</hi>, long
+the Prey of Faction, deliberately preferred a
+limitted and stipulated Submission to foreign
+Authority, to the various Evils arising from
+intestine Feuds and Animosities; and this, had
+the wise Conditions thereof been constantly attended
+to, with mutual Observance, had been
+a sound Title, well and judiciously founded.
+</p>
+
+<p>
+True it is, that after the Surrender of the
+Crown by King <hi rend='italic'>John</hi> to the See of <hi rend='italic'>Rome</hi>,
+the Pope exerted some temporal Authority in this
+Kingdom, instanced in his having created <hi rend='italic'>Mc.
+Con More Mc. Namaras</hi><note place='foot'>This <hi rend='italic'>Mac Con More
+Macnamara</hi>, Duke of <hi rend='italic'>Klan Cullane</hi>,
+founded, erected, and amply endowed the beautiful Abbey
+of <hi rend='italic'>Quin</hi>; as did other Chieftains of his Name and Family,
+several Parochial Churches, with a great Number of magnificent
+Castles.</note> Duke of <hi rend='italic'>Klan Cullane</hi>,
+a Man of great Valour and Piety, supported by
+ample Possessions in the Baronies of <hi rend='italic'>Tulla</hi> and
+<hi rend='italic'>Bunratty</hi>, in the County of <hi rend='italic'>Clare</hi>;
+which extensive Districts entirely belonged to that ancient,
+hospitable, martial, and religious Race,
+of which <hi rend='italic'>Mc. Con More</hi> was Chief: The <hi rend='italic'>Mc.
+Namaras</hi>, more or less, have in all Ages made,
+and still continue to make, a distinguished Figure,
+as well in the Field, as in the learned Professions;
+and were formerly so warlike a People,
+that of themselves they formed an heroic Cavalry,
+justly stiled the <hi rend='italic'>Phalanx</hi> of that Part of
+<hi rend='italic'>Ireland</hi> wherein they resided.
+</p>
+
+<p>
+How our Neighbours came to call us <hi rend='italic'>waild
+Ayrish</hi>, I am a Loss to conjecture; it being evident
+<pb n='029'/><anchor id='Pg029'/>
+we have been a thousand Years, at least,
+in Possession of Letters, Laws, and Civility,
+before the Arrival of <hi rend='italic'>Julius Cæsar</hi>
+in <hi rend='italic'>Britain</hi>.
+</p>
+
+<p>
+I am equally at a Loss to know why a Man
+should become a standing Jest for his Ignorance
+in an alien Tongue, almost the constant Fate of
+our Countrymen in <hi rend='italic'>Britain</hi>, where, whoever is
+not smartly expert in the <hi rend='italic'>English</hi> Language, is
+immediately denominated a <hi rend='italic'>Teague</hi>, a
+<hi rend='italic'>Paddy</hi>, or I know not what, in the Stile of Derision: At
+the same Time that the most awkward-tongued
+<hi rend='italic'>Irishman</hi> in <hi rend='italic'>London</hi> speaks
+<hi rend='italic'>English</hi> with far more
+Propriety, and a better Accent, than the smartest
+<hi rend='italic'>British Petit Maitre</hi> in <hi rend='italic'>Paris</hi> doth
+<hi rend='italic'>French</hi>.
+</p>
+
+<p>
+Some dramatick Scriblers, (probably of our
+own degenerate Growth) the better to qualify
+them for eleemosinary Dinners, gave Rise to this
+impertinent Treatment of a Nation, which, from
+the concurrent Testimonies of all the Dispassionate
+and Learned, can, in Reality, be as little the
+Object of Scurrility, as any other.
+</p>
+
+<p>
+Why should even poor <hi rend='italic'>Teague</hi> prove so constant
+a Butt, to Farce-wrights, and Hackney
+Laughers; when, upon Examination, he is, by
+a thousand Degrees, preferable to the <hi rend='italic'>British</hi>
+Hobbinol, or <hi rend='italic'>French</hi> Gregoire? For
+<hi rend='italic'>Teague</hi> is
+a very Pattern of Hospitality; so much so, that
+if a Gentleman should happen to miss his Road,
+and be nessitated to seek the Shelter of <hi rend='italic'>Teague</hi>'s
+Cabbin, or Hut, was poor <hi rend='italic'>Teague</hi> trusting to
+two Sheep for his worldly Subsistance, he would
+kill one, and sell the other, at the next Village
+or Inn, for the better Entertainment of his
+Guest, and think himself happy in such an
+Occasion of approving his Generosity and Respect:
+He would the next Morning abandon his
+Spade, and chearfully trot ten Miles to shew
+<pb n='030'/><anchor id='Pg030'/>
+such bewilder'd Gentleman the right Road. He
+is naturally civil, generous, and hospitable, (for
+scarce a Night passeth that poor Travellers are
+not entertained in his Cottage,) extremely respectful
+to his Superiors, and to his Lord and
+Master faithful to Death. The military Annals
+of <hi rend='italic'>Europe</hi> proclaim his Capacity and Taste for
+Fighting; then if you should take this identical
+<hi rend='italic'>Teague</hi>'s infant Son, and give him a regular
+liberal Education, it is one hundred to one,
+but he turns out a Gentleman of Merit, Learning,
+Worth, and Politeness; whereas it would
+certainly require more than <hi rend='italic'>Herculean</hi>
+Labour to chissel a <hi rend='italic'>French Paisan</hi>, a primitive
+<hi rend='italic'>Westmoreland</hi>, or <hi rend='italic'>Devonshire</hi> Boor,
+not only into the Form of an elegant, but even into that
+of a sociable Creature.
+</p>
+
+<p>
+The Insignificancy of those Jesters and Spatterers,
+will more clearly appear, if we look
+back to the wise, free, and truly parliamentary
+Constitution of this Kingdom; if we recollect
+the vast Length of its Duration, as a free and
+independant State; the military Prowess of its
+Inhabitants in all Ages; their victorious Conflicts
+with the <hi rend='italic'>Romans</hi>, and with the <hi rend='italic'>French</hi>
+under <hi rend='italic'>Henry</hi> the Vth, and the Black
+<hi rend='italic'>Prince</hi>; their having founded a Monarchy in
+<hi rend='italic'>North Britain</hi>, whence, by a Right of Descent, in Addition to
+every other, his present Majesty, (whom God
+long preserve,) by the special Providence and
+infinite Mercy of Heaven, ruleth over us: If
+we consider the Number of our Universities,
+Colleges, and Academies, religious Monasteries
+and pious Seminaries, resorted to from all
+civilized Parts of <hi rend='italic'>Europe</hi>, our Metropolitical
+and Diocesan Cathedrals; on such impartial Review,
+surely, the foregoing Tribe of Sneerers
+<pb n='031'/><anchor id='Pg031'/>
+and Flouters must dwindle into deserved Contempt.
+</p>
+
+<p>
+I shall close this feeble Attempt on the antient
+State of <hi rend='italic'>Ireland</hi>, with the Description thereof
+by <hi rend='italic'>Donat</hi>, Bishop of <hi rend='italic'>Fesulæ</hi>, near
+<hi rend='italic'>Florence</hi>, in the 7th or 8th Century; referring, at the same
+Time, to the most authentick <hi rend='italic'>British</hi> Antiquaries,
+<hi rend='italic'>Campden</hi>, <hi rend='italic'>Giraldus Cambrensis</hi>,
+<hi rend='italic'>Buchanan</hi>, <hi rend='italic'>Ware</hi>, &amp;c. for
+Confirmation of what hath been previously observed on the same Subject.
+</p>
+
+<lg>
+<l><foreign lang="la" rend="font-style: italic">Finibus Occiduis describitur
+optima Tellus,</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Nomine et Antiquis
+<hi rend='smallcaps'>Scotia</hi> scripta Libris&mdash;&mdash;</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Insula dives Opum, Gemmarum,
+Vestis et Auri,</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Commoda Corporibus, Aere sole
+Solo;</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Melle fluit pulchris et
+lacteis <hi rend='smallcaps'>Scotia</hi> Campis</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Vestibus atque Armis,
+frugibus, arte viris.</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Ursorum Rabies, nulla est ibi;
+sæva Leonum</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Semina, nec unquam
+<hi rend='smallcaps'>Scotica</hi> Terra tulit</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Nulla Venena nocent, nec
+Serpens serpit in Herbâ,</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Nec conquesta canit
+Garula Rana Lacu;</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">In qua
+<hi rend='smallcaps'>Scotorum</hi> Gentes habitare merentur</foreign></l>
+<l><foreign lang="la" rend="font-style: italic">Inclita Gens Hominum
+Milite, Pace, Fide.</foreign></l>
+</lg>
+
+<p>
+Thus Englished by the Ingenius and Reverend
+Mr. <hi rend='italic'>Dunkin</hi>:
+</p>
+
+<lg>
+<l><q rend="pre">Far Westward, lies an Isle of antient Fame,</q></l>
+<l>By Nature bless'd, and <hi rend='smallcaps'>Scotia</hi> is her Name;</l>
+<l>Enroll'd in Books: Exhaustless is her Store</l>
+<l>Of veiny Silver, and of Golden Ore:</l>
+<l>Her fruitful Soil for ever teams with Wealth,</l>
+<l>With Gems her Waters, and her Air with Health:</l>
+<l>Her verdant Fields with Milk and Honey flow;</l>
+<l>Her woolly Fleeces vie with Virgin Snow:</l>
+<pb n='032'/><anchor id='Pg032'/>
+<l>Her waving Furrows float with bearded Corn,</l>
+<l>And Arms and Arts her envy'd Sons adorn.</l>
+<l>No savage Bear, with lawless Fury, roves;</l>
+<l>No rav'nous Lion, thro' her peaceful Groves;</l>
+<l>No Poison there infects; no scaly Snake</l>
+<l>Creeps thro' the Grass, nor Frog annoys the Lake:</l>
+<l>An Island worthy of its pious Race,</l>
+<l><q rend="post">In War triumphant, and unmatch'd in Peace.</q></l>
+</lg>
+
+<p>
+This <hi rend='italic'>Donat</hi>, Bishop of <hi rend='italic'>Fesula</hi>, was an
+<hi rend='italic'>Irishman</hi>, of the antient and hospitable Family, afterwards
+<hi rend='italic'>O Hogan</hi>; a Family which held ample and
+fair Possessions in the Province of <hi rend='italic'>Munster</hi>, and
+which, in former Times, adorned the See of
+<hi rend='italic'>Killaloe</hi>, with four very learned and exemplary
+Prelates; namely, with <hi rend='italic'>Matthew O Hogan</hi>, who
+succeeded to this Bishoprick, in the Reign of
+<hi rend='italic'>Henry</hi> the IIId, and in the Year of our Lord
+1267; and who, having much enlarged his Diocese,
+and done many signal Acts of popular Charity,
+died in the Year, 1281, and was buried
+in <hi rend='italic'>Limerick</hi>, in a Convent of <hi rend='italic'>Dominican</hi>
+Friars. To this Bishop succeeded <hi rend='italic'>Maurice O Hogan</hi>,
+who governed this See with peculiar Zeal and
+Charity, upwards of sixteen Years, and died in
+1298, or the Year following, and was buried
+in his own Church. <hi rend='italic'>Thomas O Hogan</hi>, Canon
+of <hi rend='italic'>Killaloe</hi>, was consecrated in 1343, and died
+on the 30th of <hi rend='italic'>October</hi>, 1354; five Days after
+which, he was buried among his worthy Ancestors
+at <hi rend='italic'>Nenagh</hi>; as may be seen in the Annals
+of that Place.
+</p>
+
+<p>
+<hi rend='italic'>Richard O Hogan</hi> succeeded to the See of
+<hi rend='italic'>Killaloe</hi>, in 1525, and was in 1539 translated to
+<hi rend='italic'>Clon Mac Nois</hi>: He was a Prelate of great
+<pb n='033'/><anchor id='Pg033'/>
+Learning and Capacity, in all spiritual and ecclesiastical
+Matters.
+</p>
+
+<p>
+This antient Family is, at this Time, represented
+by <hi rend='italic'>Edmund O Hogan</hi>, Esq; High Sheriff
+of the County of <hi rend='italic'>Clare</hi>, a Gentleman, who,
+by the whole Tenor of his Life, hath proved
+Generosity of Heart, Charity, and Hospitality,
+to be Qualities inherent.
+</p>
+
+<p>
+<hi rend='italic'>Dermod Mac Murchad</hi>, sovereign Prince of
+<hi rend='italic'>Hy-Kinsellagh</hi>, banished by <hi rend='italic'>Roderick O
+Connor</hi>, King of <hi rend='italic'>Ireland</hi>, for his various and high State
+Crimes, sought Sanctuary and Redress in the
+Court of <hi rend='italic'>England</hi>; where, in the Absence of
+<hi rend='italic'>Henry</hi>, then in <hi rend='italic'>Normandy</hi>, diverse
+adventurous <hi rend='italic'>Normans</hi>, <hi rend='italic'>Flemings</hi>,
+<hi rend='italic'>Saxons</hi>, and old <hi rend='italic'>Britons</hi>, (being
+themselves unsettled, and unestablished) acceded
+to the Fate and Fortunes of <hi rend='italic'>Dermod</hi>, under
+the Conduct of <hi rend='italic'>Strongbow</hi>, Earl of
+<hi rend='italic'>Pembroke</hi>; whose casual Success in
+<hi rend='italic'>Ireland</hi>, against <hi rend='italic'>Roderick</hi>
+(owing <emph>more</emph> to the general Defection, at that
+fatal Period, of the <hi rend='italic'>Irish</hi> Chiefs against their
+lawful Sovereign, than to any <emph>superior Valour</emph> or
+Address of those Adventurers) induced <hi rend='italic'>Henry</hi> to
+a deliberate and grand Invasion of a Kingdom,
+to which he could lay no Claim on the Score of
+Nature, Reason, or Right, and whither his
+pretended Mission, on the Score of collecting
+St. <hi rend='italic'>Peter</hi>'s Dues, (which St. <hi rend='italic'>Peter</hi>
+himself never once thought of, or imagined) was as <emph>ridiculous</emph>
+as <emph>groundless</emph>. The <hi rend='italic'>Summa Dies</hi>, however, arrived:
+and the People of <hi rend='italic'>Ireland</hi>, wearied out
+with intestine Strife, acknowledged <hi rend='italic'>Henry</hi> for
+their Sovereign Lord; and a grand Charter of
+Rights and Covenants, mutual Protection and
+Allegiance, was entered into, anteriorly to that
+of <hi rend='italic'>England</hi>. How well this Charter was <emph>observed</emph>
+on the <emph>protective</emph> Side, the absolute Anarchy of
+<pb n='034'/><anchor id='Pg034'/>
+near four Centuries, from its original Date and
+Perfection, to the Reign of Queen <hi rend='italic'>Elizabeth</hi>,
+demonstrates: A whole Nation, that sought
+Protection, and that <emph>agreed</emph> for quiet, regular,
+and lawful Government, upon rationable Terms,
+deprived of the Power of ordaining Laws for
+its own Security and Well-being, and precluded
+(all to four or five great and favourite Families)
+from the Benefits and Advantages accruing from
+those of that Kingdom, to which it had voluntarily
+united itself; exposed, through such a
+Length of Time, to arbitary Depredations, and
+unpunished, unredressed, uncensured Rapine,
+<hi rend='italic'>Quis talia sando temperet a Lachrymis</hi>!
+</p>
+
+<p>
+King <hi rend='italic'>Henry</hi> called back into <hi rend='italic'>England</hi>,
+to lay the Storms raised by his rebellious Sons, with
+whom and <hi rend='italic'>Thomas Becket</hi>, Archbishop of
+<hi rend='italic'>Canterbury</hi>,
+he was so constantly embroiled to the
+End of his Life, that he could little attend to
+the Settlement of the Affairs of this new acquired
+Sovereignty.
+</p>
+
+<p>
+<hi rend='italic'>Richard</hi> the First, his immediate Successor,
+called away to the Holy Wars against the <hi rend='italic'>Saracens</hi>,
+had as little Leisure as his Predecessor to
+promote the Quiet, or Happiness of <hi rend='italic'>Ireland</hi>.
+</p>
+
+<p>
+From the usurped Authority of King <hi rend='italic'>John</hi>, a
+continued Series of Papal Animosity, Bloodshed,
+Calamities and Piracies, closed at last by
+Poison; little beside political Disasters of all
+Sorts, could be expected.
+</p>
+
+<p>
+<hi rend='italic'>Henry</hi> the Third, through a Reign of Fifty-six
+Years, was continually involved in Troubles
+and Hostilities, with his inflexible <hi rend='italic'>English</hi> Barons.
+</p>
+
+<p>
+<hi rend='italic'>Edward</hi> the First, a great and warlike Prince,
+was, throughout his whole Reign, engaged in
+the Reduction of the <hi rend='italic'>Welch</hi> and <hi rend='italic'>Scots</hi>,
+and so
+<pb n='035'/><anchor id='Pg035'/>
+intent thereon, that he could turn his Thoughts
+to no other Object.
+</p>
+
+<p>
+<hi rend='italic'>Edward</hi> the Second, indeed, sent
+<hi rend='italic'>Gaveston</hi> hither,
+more to screen him from the implacable
+Resentments of the stubborn <hi rend='italic'>English</hi> Nobility,
+than to render any good Offices to the Inhabitants
+of this Country; who, indiscriminately,
+(<hi rend='italic'>Strongbownians</hi> as well as <hi rend='italic'>Irish</hi>)
+felt the Severity of that insolent Favourite's Measures.
+</p>
+
+<p>
+<hi rend='italic'>Richard</hi> the Second visited this Kingdom in
+Person, with the good Intentions of establishing
+Peace, Order, and Harmony, in a valuable but
+long neglected Estate: Yet his own adverse
+Fate, conspiring with that of this Land, called
+him back, before he could carry his favourable
+Resolutions into Execution, to defend his <hi rend='italic'>English</hi>
+Dominions from the hostile Attacks of <hi rend='italic'>Henry</hi>,
+Earl of <hi rend='italic'>Hereford</hi>, who, with the Duke of
+<hi rend='italic'>Norfolk</hi>, Son to <hi rend='italic'>John</hi> of
+<hi rend='italic'>Gaunt</hi>, had some Years before
+been banished by <hi rend='italic'>Richard</hi>, to prevent a
+personal Combat: This King, worthy more
+propitious Stars, long agitated and afflicted by
+the Turbulence and irreconcilable Obstinacy of
+his <hi rend='italic'>British</hi> Subjects, perished at last under the
+impious Hands of Sir <hi rend='italic'>Pierce</hi> of <hi rend='italic'>Exton</hi>,
+who, at the Head of eight barbarous armed Assassins,
+rushed into his Chamber, and murdered him.
+</p>
+
+<p>
+The Reign of <hi rend='italic'>Henry</hi> the Fourth was short,
+tumultuous, and bloody; Deluges of noble Blood
+having been shed by the bare Hands of the
+common Executioner, to confirm a Throne acquired
+by abominable Crimes, and Violence!
+And no sooner had these dreadful Storms begun
+to abate, than <hi rend='italic'>Henry</hi> was forced to depart from
+a Scene he had more adorned, (for he was,
+without Question, a great and valiant Man)
+<pb n='036'/><anchor id='Pg036'/>
+had not his Ambition blindly hurried him beyond
+the Bounds of Justice and Nature.
+</p>
+
+<p>
+<hi rend='italic'>Henry</hi> the Fifth, his Son and Successor, and
+truly Inheritor of his Ambition and warlike
+Genius, imagining himself aggrieved by the
+<hi rend='italic'>Salique Law</hi>, which excluded his Great Great-Grandmother,
+<hi rend='italic'>Isabel</hi>, from the Monarchy of
+<hi rend='italic'>France</hi>, turned his elevated Thoughts intirely
+to the Conquest of that Kingdom: Wherein,
+by his own vast Merit in martial Affairs, and
+the Co-operation of the Queen of <hi rend='italic'>France</hi>, (Consort
+of <hi rend='italic'>Charles</hi> the Sixth, then frantick,) and that
+of the Duke of <hi rend='italic'>Burgundy</hi>, a great and powerful
+Prince, he so far succeeded, as, after his Marriage
+with <hi rend='italic'>Catharine de Valois</hi>, Daughter of
+<hi rend='italic'>Charles</hi> the Sixth, to be crowned, and acknowledged
+King of <hi rend='italic'>France</hi>.
+</p>
+
+<p>
+To this great and victorious Monarch succeeded
+<hi rend='italic'>Henry</hi> the Sixth, who, through a long,
+various, and constantly clouded Reign, seemed
+the very Play of Fortune! This Day a King,
+the next a Prisoner! One Day acknowleged by
+his Parliament, the next attainted! One Day a
+Conqueror, and the next a Captive!
+</p>
+
+<p>
+Fierce, frequent, and bloody, were the Conflicts
+between the Houses of <hi rend='italic'>York</hi> and <hi rend='italic'>Lancaster</hi>,
+the <hi rend='italic'>White</hi> and <hi rend='italic'>Red Roses</hi>; the former
+endeavouring to recover its Loss, the latter to maintain
+its usurped Authority. In this dreadful Quarrel
+perished two hundred thousand of private Soldiers;
+ten thousand of the Nobility, Gentry,
+and Persons of Distinction; three Kings; and,
+at last, the entire Race of <hi rend='italic'>Plantagenet</hi>.
+</p>
+
+<p>
+<hi rend='italic'>Edward</hi> the Fourth soon fell, by his natural
+Intemperance, or rather by the insatiable Cruelty
+of <hi rend='italic'>Gloucester</hi>; who had already sacrificed his
+Brother <hi rend='italic'>Clarence</hi>, to pave his Way to the Throne.
+<pb n='037'/><anchor id='Pg037'/>
+Nor better fared it with <hi rend='italic'>Edward</hi> the Fifth, who,
+by all the Arts of Seduction and Delusion,
+which his unnatural Uncle and Guardian,
+<hi rend='italic'>Richard</hi>, practised on the Fears and Weakness
+of the Queen Dowager; was, with his Brother
+the Duke of <hi rend='italic'>York</hi>, conveyed with great Pomp
+to the Tower; where the bloody Tyrant, aided
+by the Duke of <hi rend='italic'>Buckingham</hi>, soon sacrificed
+those young, innocent and hopeful Princes to
+his wicked and boundless Ambition. But he
+soon after lost his own flagitious Life, and a
+most cruelly-acquired Crown, on the Plains of
+<hi rend='italic'>Bosworth</hi>.
+</p>
+
+<p>
+To him succeeded <hi rend='italic'>Henry</hi> the Seventh, and the
+first of the Race of <hi rend='italic'>Tudor</hi>, a great, wise and
+valiant Prince, but rather too much inclined to
+Rigour, and Avarice; Imperfections which extremely
+blemished his other great Qualities.
+</p>
+
+<p>
+In the tenth Year of this Reign, the Parliamentary
+Constitution of <hi rend='italic'>Ireland</hi> received a
+deeper Stab than had ever before, or since, been
+inflicted thereon, by a Statute Law, commonly
+called <hi rend='italic'>Poynin</hi>'s Act; by which a new, and, till
+that wretched Period, an unheard of Order, was
+added to the three established Ranks of the
+State. By this Law, the <hi rend='italic'>English</hi> Privy-Council
+may impose a <hi rend='italic'>Negative</hi> on the <emph>free</emph> and
+<emph>unanimous</emph> Parliamentary Ordinances of the representative
+Body of the Kingdom of <hi rend='italic'>Ireland</hi>; a manifest
+Injury to the Authority and Dignity of Parliament;
+and an equal Diminution of the Royal
+Prerogative, that only should include, and
+should alone exert, a Power so important.
+</p>
+
+<p>
+In Times dark, tumultuated and dangerous,
+no Wonder extraordinary Laws should pass:
+<hi rend='italic'>Desperate Diseases</hi> require <hi rend='italic'>desperate
+Remedies</hi>: But when the <hi rend='italic'>Fever</hi> is removed, it certainly is a
+<pb n='038'/><anchor id='Pg038'/>
+horrid Management to leave the blistering
+Plaister <emph>still sticking</emph> to the <emph>recovered</emph> Patient's
+Back.
+</p>
+
+<p>
+The Distempers of this Nation were heavy,
+complicated and chronic; and finally curable,
+only by the salutary all-healing Hands of our
+present King, and present Parliament.
+</p>
+
+<p>
+To <hi rend='italic'>Henry</hi> the Seventh succeeded <hi rend='italic'>Henry</hi> the
+Eighth, as consummate a Tyrant, in every
+Sense, as ever swayed the <hi rend='italic'>British</hi>, or any other
+Sceptre; whose whole Life was so continued a
+Scene of wanton Dissipation, Lust, Cruelty,
+Rapine, Bloodshed and Sacrilege, that it must
+have been a peculiar Happiness, to any Part of
+his Dominions, to have been <emph>neglected</emph> or <emph>forgotten</emph>
+by him: Nor could the two succeeding
+Reigns of <hi rend='italic'>Edward</hi> the Sixth, and Queen
+<hi rend='italic'>Mary</hi>,
+short, various, cloudy, and vastly agitated on
+the Score of Religion, (which, in those two
+Reigns, took Faces almost diametrically opposite,)
+afford this Kingdom much reflected
+Sunshine.
+</p>
+
+<p>
+To those ensued that of Queen <hi rend='italic'>Elizabeth</hi>, a
+Princess of powerful Abilities, who, truly intent
+on the Peace and Welfare of her Subjects,
+caused her Laws to operate, and Justice to circulate
+in this Kingdom, abandoned, as hath
+been observed, to a State almost of Anarchy,
+thro' a dismal Series of seventeen Reigns: But
+the Reformation in Religion, which she established
+in <hi rend='italic'>England</hi>, and introduced in <hi rend='italic'>Ireland</hi>,
+much obviated her Purposes for the latter Kingdom:
+For, the <hi rend='italic'>Irish</hi>, more tenacious of their
+Altars, than of their Fire-places, could not
+easily reconcile themselves to the Exchange of a
+Religion they deemed a <emph>new one</emph>, for <emph>that</emph> they
+had been in Possession of from the fourth, to
+<pb n='039'/><anchor id='Pg039'/>
+the fifteenth Century: Which produced a rebellious
+Defection, in a few of the principal
+Chieftains of this Land, and gave Occasion to
+the greedy Provincial Precedents, of trumping
+up <emph>imaginary Rebellions</emph>, to pave the Way to <emph>real
+Forfeitures</emph>; thereby to aggrandize their own
+Houses; what some of them effectually accomplished,
+to the Ruin and Extirpation of
+many honest Families.
+</p>
+
+<p>
+This great and illustrious Princess, (whose
+Reign had remained untarnished, had it not
+been for the Death of the ill-fated Queen of
+<hi rend='italic'>Scotland</hi>) was succeeded by <hi rend='italic'>James</hi> the
+Sixth of <hi rend='italic'>Scotland</hi>, and the first of the
+<hi rend='italic'>Stuart</hi> Race that governed <hi rend='italic'>England</hi>: From
+this Prince, descended of <hi rend='italic'>Irish</hi> Kings, the People of
+<hi rend='italic'>Ireland</hi> might have expected many Favours and Immunities;
+wherein, however, they were miserably disappointed:
+Which, with a Train of other Hardships
+and antiparental Severities, (particularly
+his alienating, at <emph>one Stroke</emph>, six of the best
+Counties in the Kingdom, on the <emph>procured</emph> Testimony
+of an obscure wretched Individual, one
+<hi rend='italic'>Teige Lenane</hi>,) is too sufficient and too lasting a
+Proof of: <hi rend='italic'>Heu! tot Conquesta Annorum, hauserit
+una Dies!</hi> The Possession of at least twenty
+Centuries, of the great and good, the heroic
+and hospitable <hi rend='italic'>O Neils</hi>, <hi rend='italic'>O Donnels</hi>,
+<hi rend='italic'>Mac Guires</hi>, <hi rend='italic'>Mac Gennises</hi>,
+<hi rend='italic'>O Reillys</hi>, <hi rend='italic'>O Cahanes</hi>, &amp;c. ravished
+away to gratify hungry Favourites, and indigent
+Relatives! the six Counties, however, as the
+Law Term has it, <hi rend='italic'>escheated</hi>. Had the
+<hi rend='italic'>Highlands</hi> of <hi rend='italic'>Scotland</hi>, at that unhappy
+Period, been more populated, probably six or eight Counties <emph>more</emph>
+had been procured to <hi rend='italic'>escheat</hi>, and there had been
+<hi rend='italic'>a braa Clutch of bonny Traitors</hi>; the
+<hi rend='italic'>O Connors</hi>, <hi rend='italic'>Mac Carthys</hi>,
+<hi rend='italic'>O Briens</hi>, <hi rend='italic'>O Donnels</hi>,
+<hi rend='italic'>O Hares</hi>,
+<pb n='040'/><anchor id='Pg040'/>
+<hi rend='italic'>O Malones</hi>, &amp;c. had been <emph>all</emph> in the
+<emph>same Bottom</emph> with the Families above mentioned; especially,
+as they could not, according to <hi rend='italic'>James</hi> the First's
+own Phrase, <hi rend='italic'>look to the Pope, and row with
+him</hi>.
+</p>
+
+<p>
+To <hi rend='italic'>James</hi> the 6th of <hi rend='italic'>Scotland</hi>, and first
+of <hi rend='italic'>England</hi>, succeeded <hi rend='italic'>Charles</hi> the First;
+who, notwithstanding his eminent Possession of all the
+Virtues that adorn and illustrate human Nature,
+could neither divert the adverse Fate of Subjects,
+or prevent his own.
+</p>
+
+<p>
+The Disseisin of many honest Families in the
+County of <hi rend='italic'>Kilkenny</hi>, and elsewhere, by the Earl
+of <hi rend='italic'>Strafford</hi>, on stale Pretences of <hi rend='italic'>Non
+Performance of Covenants</hi> on their Part; his Attempt of
+confiscating twenty-five Parts in thirty of the
+whole Province of <hi rend='italic'>Connaught</hi>, on a Claim of
+Descent, dormant 300 Years, and <emph>originally ill
+founded</emph>, with the arbitrary Steps by him taken to
+the Accomplishment of this wasteful Purpose;
+too clearly proved that Nobleman a second
+<hi rend='italic'>Verres</hi>. The cruel and intoxicated Administration
+of the Rump Parliament; the insolent, licentious,
+and riotous Controul of the military
+<hi rend='italic'>Independents</hi>; the abject Tyranny of <hi rend='italic'>Oliver
+Cromwell</hi>, who prostrated Constitution, Church
+and State, will always be recollected with the
+Contempt, Horror, and Detestation of every
+good Subject.
+</p>
+
+<p>
+The Calamities from 1641, to the happy Restoration
+of King <hi rend='italic'>Charles</hi> the Second, in 1660,
+being common to all good Subjects, were the
+more tolerable, <foreign lang="la" rend='font-style: italic'>ferre quam sortem
+patiuntur omnes, nemo recusat</foreign>: But now or never, surely, might
+his ever loyal, ever faithful <hi rend='italic'>Irish</hi> Subjects have,
+with the most reasonable Assurance, hoped, if
+not for publick and lasting Rewards, the common
+<pb n='041'/><anchor id='Pg041'/>
+Wages of uncommon Fidelity; at least,
+for a Restitution of what had been their own,
+through Ages immemorial.
+</p>
+
+<p>
+Will late Posterity <emph>believe</emph>, that, in Favour of
+mercenary Adventurers, who advanced Money
+to provide for a desperate regicide Army; in
+Favour of the Officers of this same Army, whom
+their Ringleader <hi rend='italic'>Cromwell</hi>, seared as his Conscience
+was, indulged with no more than <emph>temporary</emph>
+Grants of the Estates belonging to the
+King's most faithful Subjects: Will Posterity,
+I say, believe, that, in special Favour of such
+Men, those <emph>identical Subjects</emph>, the bravest Advocates,
+as well as the most affectionate undeviating
+Friends of the Monarchy and Constitution,
+were <emph>for ever</emph> deprived of their Properties! To
+remunerate the <emph>others</emph>, the most <emph>inveterate</emph> and
+<emph>implacable</emph> Enemies of <hi rend='smallcaps'>EITHER</hi>! <emph>Doing
+Good for Evil</emph> is a Divine Precept, and certainly includes
+a most sublime Moral; but <emph>rendering Evil for
+Good</emph>, is such a Principle as must carry Horror
+with it, among savage Nations!
+</p>
+
+<p>
+The King of <hi rend='italic'>France</hi>'s immediate Letter, on
+this Subject, to King <hi rend='italic'>Charles</hi> the Second, as it
+reflects Honour on the Memory of those illustrious
+Sufferers, I therefore take Leave to transcribe
+in this Place.
+</p>
+
+<milestone unit="tb" rend="stars: 5"/>
+
+<p>
+<hi rend='italic'>His Most Christian Majesty's Letter to the King of
+<hi rend='italic'>Great Britain</hi>, in Favour of the <hi rend='italic'>Roman
+Catholicks</hi> of <hi rend='italic'>Ireland</hi>.</hi>
+</p>
+
+<quote rend="display">
+<q>Most High, Most Excellent, and Most
+Potent Prince, our dear and well-beloved Brother
+and Cousin! At the same Time that we
+have been told of your Majesty's great Goodness
+towards your Subjects, and the Precedent
+<pb n='042'/><anchor id='Pg042'/>
+you have given of an extraordinary Clemency,
+in granting them your general Amnesty
+(some few only excepted, of those
+whom the Blood of their King, and that of
+his People, cry aloud to Heaven for Revenge
+against). We could not but let your Majesty
+know, that we were extremely surprized to
+hear, that the <hi rend='italic'>Catholicks</hi> of <hi rend='italic'>Ireland</hi>
+were <emph>excluded</emph> from that Act of Oblivion, and, by
+that Means, put into the Number of the <emph>most
+criminal</emph>! This News has so much the more
+excited our Compassion towards them, that
+we have been informed, that, in <emph>all the
+Changes</emph> which have hitherto happened in your
+Dominions, and in the almost general <emph>Defection
+of</emph> your Subjects, <emph>none</emph> stood <emph>more constant</emph>
+to their lawful Sovereign, even in the greatest
+Streights, than the <hi rend='italic'>Catholicks</hi>: So that, if
+they are now branded for their Religion, it
+may be said, for their Honour, that, in
+Times past, none could be found <emph>readier</emph>, or
+more <emph>cheerfully disposed</emph>, than <emph>they</emph>, to serve
+and assist their Prince; and that with so
+much <emph>Ardour</emph>, that their Zeal then for the
+Royal Family was reckoned a certain Mark
+of their true Religion. It is for that Reason
+that we now become their Intercessors to you:
+For, otherwise, had they <emph>failed</emph> in the Fidelity
+they owe you, instead of interceding for
+them, we would join with you in using them
+with all imaginable Rigour; and it would
+never come into our Thoughts to concern
+ourselves, as we do, for the <hi rend='italic'>Catholicks</hi> of
+<hi rend='italic'>Ireland</hi>; though we <emph>were obliged to it</emph>, by the last
+Treaty of Peace made with the Marquess of
+<hi rend='italic'>Ormond</hi>, and which was granted them by our
+Mediation. And, as we are well assured,
+<pb n='043'/><anchor id='Pg043'/>
+that, since the Conclusion of that Peace, they
+have done Nothing which can be called a
+<emph>Failure of their Duty to you</emph>, we find ourselves
+under so much the greater Obligation to conjure
+you, to make good that Treaty to them,
+in that they <emph>religiously</emph> observed it on <emph>their</emph>
+Side, in all its Parts: And to beseech you
+not to suffer, that either the Hatred, which
+an immoderate Zeal swells some bigotted Sectaries
+with, nor the unlucky Spoils of these
+poor People, render criminal or miserable the
+<emph>most faithful</emph> of your Subjects; to whom their
+lawful King, as you are, is not <emph>the less dear</emph>,
+nor <emph>less respected</emph>, because of a <emph>different Belief</emph>
+from <emph>theirs</emph>. We propose Nothing to ourselves
+in this, nor ask any Thing, but what
+we daily <emph>practise</emph> (as you may know) towards
+those of our Subjects who are of the <emph>reformed
+Religion</emph>. And, as we have commanded the
+Sieur Marquis <hi rend='italic'>de Rouvigny</hi> to explain our
+Sentiments more amply on this Subject to
+you, be pleased to give him a favourable Audience:
+And, above all Things, be perswaded,
+that, in this Affair, we have no less your
+own <emph>true Interest</emph> in View, than what <emph>natural
+Reason</emph> and <emph>Equity</emph> requires; and that our sincere
+Friendship for you is the principal Motive
+of this Request. Dated at <hi rend='italic'>Paris</hi>, the 7th
+of <hi rend='italic'>September</hi>, 1660.</q>
+</quote>
+
+<p>
+The <emph>good</emph> King <hi rend='italic'>Charles</hi>, regardless of this important
+Solicitation, unattentive to the plain Suggestions
+of <emph>common Right</emph>, and unaccountably
+forgetful of all their <emph>past signal Services</emph> and inviolate
+Zeal; observed indeed that those faithful
+<hi rend='italic'>Irish</hi> Subjects had no Stock; consequently, that
+dispossessing the Adherents of <hi rend='italic'>Oliver</hi>, who, with
+<pb n='044'/><anchor id='Pg044'/>
+the Land, had pirated the national Stock, would
+cause much Confusion. As for the <emph>former</emph>, he
+hoped some Settlement might in Time be found
+for them; (in Truth, I believe, for aught his
+Majesty in Reality concerned himself, this might
+have been in <hi rend='italic'>Terra Australis Incognita</hi>). Their
+Want of Stock is the less to be admired at, it
+being well known, that, with their Pay in foreign
+Service, chiefly expended to contribute all
+in their Power to the <hi rend='italic'>Royal Support</hi>, they even
+went so far as to sell their Plate, and valuable
+Moveables, to answer the same <emph>generous Purpose</emph>:
+But, when every known Acre in the Kingdom,
+that could be disposed of, was given away
+by Wholesale to the Duke of <hi rend='italic'>York</hi>, the Heir-apparent
+of the Crown, (partial Distribution!)
+to new-fangled Favourites, and the staunch old
+Enemies of Church and Crown; it was hoped
+some Lands might be <emph>yet</emph> discovered, to satisfy
+and compensate those <hi rend='italic'>Irish</hi> Worthies, who had
+Nothing left for their Support, beside an inalienable
+Sense of Honour and Loyalty, and a Character
+of invincible Fidelity (which all Nations
+admired and applauded). No such Discovery,
+however, was made, nor any relative to the
+<hi rend='italic'>Irish</hi>, under that Administration, but what
+tended to convince them, by the famous Act
+of Settlement, <hi rend='italic'>&amp;c.</hi> of the extraordinary severe
+Peculiarity of their Fate! Yet, ordained to
+shew Posterity unprecedented Specimens of Loyalty
+and Zeal, they still adhered, with inflexible
+Constancy, to the Fortunes of King <hi rend='italic'>James</hi> the
+Second, not mindful of their Injuries by <hi rend='italic'>James</hi>
+the First, their unexampled Sufferings by the
+excessive harsh Measures of King <hi rend='italic'>Charles</hi> the
+First, his Ministers, and Deputies, or their unheard-of
+Treatment (I won't say <emph>Wrongs</emph>, it
+<pb n='045'/><anchor id='Pg045'/>
+being a Maxim the King of <hi rend='italic'>England</hi> can do none)
+by King <hi rend='italic'>Charles</hi> II. Little Wonder, a House,
+constantly sapping it's own best Pillars, should
+at length fall.
+</p>
+
+<p>
+King <hi rend='italic'>James</hi> the Second, constrained to abdicate
+the Throne of <hi rend='italic'>England</hi>, endeavoured the
+Preservation of this his Kingdom of <hi rend='italic'>Ireland</hi>,
+where his faithful Subjects, (a Remnant of the
+various and manifold Wastes of foregoing
+Reigns) considering the thousand Disadvantages
+they laboured under, made <emph>such a Stand</emph> as later
+Ages will look up to with Astonishment! A
+Parcel of Men, congregated in the utmost Hurry
+and Confusion, undisciplin'd, unarm'd, uncloathed,
+unpaid! Yet did those very Men,
+animated by the Example of their heroick Leaders,
+(I mean their immediate Lords and Countrymen)
+on the Plains of <hi rend='italic'>Aughrim</hi>, convince
+the best veteran Army that Day in <hi rend='italic'>Europe</hi>, superior
+in Numbers, excellently provided for in
+every Respect, and conducted by a Prince of
+singular Valour and Address, that <hi rend='italic'>Irishmen</hi> were
+deserving of more auspicious Stars.
+</p>
+
+<p>
+Never was a more gallant Defence than they,
+after this, made in <hi rend='italic'>Limerick</hi>; where, although
+abandoned by the Prince, (whose Cause they
+had so remarkably espoused) and his auxiliary
+<hi rend='italic'>French</hi>, they obtained an honourable
+<hi rend='smallcaps'>Capitulation</hi> from those in Commission under King
+<hi rend='italic'>William</hi> the Third, whose strict <emph>Observance</emph>
+thereof, to the End of his glorious Life, reflects,
+among many other his great Atchievements,
+deserved Honour on his Memory.
+</p>
+
+<p>
+The distinguished Figure made by those
+Noblemen and Gentlemen, who, regardless of
+<emph>Property</emph> or <emph>Ease</emph>, followed the Destiny of that
+hard-fated Prince, King <hi rend='italic'>James</hi> the Second,
+<pb n='046'/><anchor id='Pg046'/>
+(namely, the Lords <hi rend='italic'>Mount-Cashel</hi>, <hi rend='italic'>Tyrconnel</hi>,
+<hi rend='italic'>Clare</hi> and <hi rend='italic'>Lucan</hi>, the
+<hi rend='italic'>Dillons</hi>, <hi rend='italic'>Nugents</hi>,
+<hi rend='italic'>Rooths</hi>, <hi rend='italic'>Burkes</hi>,
+<hi rend='italic'>Lees</hi>, <hi rend='italic'>Fitz-Geralds</hi>,
+<hi rend='italic'>Cooks</hi>, <hi rend='italic'>Lacys</hi>,
+<hi rend='italic'>Browns</hi>, <hi rend='italic'>Wogans</hi>,
+<hi rend='italic'>Baggots</hi>, <hi rend='italic'>Sheridans</hi>,
+<hi rend='italic'>Creaghs</hi>, <hi rend='italic'>Plunkets</hi>,
+<hi rend='italic'>Barnewals</hi>, <hi rend='italic'>Neagles</hi>,
+<hi rend='italic'>Lallys</hi>, <hi rend='italic'>Mac Carthys</hi>, <hi rend='italic'>Mac
+Donnels</hi>, <hi rend='italic'>Mac Guires</hi>, <hi rend='italic'>Mac Namarras</hi>,
+<hi rend='italic'>Mac Mahons</hi>, <hi rend='italic'>Mac Gennis's</hi>,
+<hi rend='italic'>O Neils</hi>, <hi rend='italic'>O Connors</hi>,
+<hi rend='italic'>O Donnels</hi>, <hi rend='italic'>O Briens</hi>,
+<hi rend='italic'>O Dwyers</hi>, <hi rend='italic'>O Shaghnussys</hi>,
+<hi rend='italic'>O Mahonys</hi>, <hi rend='italic'>O Sullivans</hi>,
+<hi rend='italic'>O Kellys</hi>, <hi rend='italic'>O Ferralls</hi>,
+<hi rend='italic'>O Reillys</hi>, <hi rend='italic'>O Haras</hi>,
+<hi rend='italic'>O Hogans</hi>, <hi rend='italic'>O Byrnes</hi>,
+<hi rend='italic'>O Daes</hi>, &amp;c.
+&amp;c. &amp;c. the military Annals of <hi rend='italic'>Germany</hi>,
+<hi rend='italic'>France</hi>, <hi rend='italic'>Spain</hi>,
+<hi rend='italic'>Flanders</hi>, <hi rend='italic'>Italy</hi>,
+<hi rend='italic'>Naples</hi>, and
+<hi rend='italic'>Russia</hi>), must bear ample and authentic Testimony
+of, to future Ages.
+</p>
+
+<p>
+Those were they, of whom Dr. <hi rend='italic'>Mac en Crow</hi>
+gives the following concise, but just and happy
+Character.
+</p>
+
+<quote rend="display">
+<foreign lang="la" rend='font-style: italic'>Genus acre Bello, Studiis Genus acre
+Minervæ, Devotumque mori pro Rege, Fidêque tuendis.</foreign>
+</quote>
+
+<p>
+Among those who followed the Fortunes of King
+<hi rend='italic'>James</hi> the Second, were Sir <hi rend='italic'>Richard Neagle</hi>,
+his Attorney-General, and Dr. <hi rend='italic'>Moore</hi>, Provost
+of <hi rend='italic'>Trinity-college</hi>, near <hi rend='italic'>Dublin</hi>; two
+Gentlemen very justly distinguished in their respective
+Spheres; the former, a Gentleman of unshaken
+Integrity, and great Capacity in the Profession
+of the Laws; the latter, of exemplary Piety,
+universal Learning, and fine Accomplishments.
+<hi rend='italic'>Louis</hi> the Fourteenth, then King of <hi rend='italic'>France</hi>,
+protected those worthy deserving Men, with singular
+Tenderness and Attention; and was instructed
+and guided solely by Dr. <hi rend='italic'>Moore</hi>, in the restoring,
+establishing, and modelling the University
+of <hi rend='italic'>Paris</hi>, at that gloomy Period! quite
+buried in perplexed, unintelligible, peripatetic
+<pb n='047'/><anchor id='Pg047'/>
+Philosophy, and disfigured with romantic Legends,
+and Gothic Jingle! But, at the Doctor's
+Appearance, Entities, Quiddities, Sympathies,
+Antipathies, occult Qualities, substantial
+Forms, metaphysical Degrees, Categories, and
+all this unideal wordy Stuff, vanished; and
+were succeeded by a clear, concise Method of
+Reasoning, and sound, useful, and experimental
+Philosophy. <hi rend='italic'>Greek</hi>, <hi rend='italic'>Hebrew</hi>,
+<hi rend='italic'>Syriac</hi>, <hi rend='italic'>Chaldaic</hi>,
+and <hi rend='italic'>Arabic</hi>, were Languages <emph>untaught</emph>,
+<emph>unknown</emph>, in the University of <hi rend='italic'>Paris</hi>, before Dr.
+<hi rend='italic'>Moore</hi>; for whom particularly, <hi rend='italic'>Louis</hi> the
+Fourteenth founded, established, and endowed the Royal
+College, now called <hi rend='italic'>College du Cambray</hi>: And
+how well our Doctor succeeded therein, may be
+inferred from the Character and Writings of
+his Pupils and Hearers, <hi rend='italic'>Boileau</hi>,
+<hi rend='italic'>Fontinelle</hi>, <hi rend='italic'>Poréc</hi>,
+<hi rend='italic'>Montesquieu</hi>, <hi rend='italic'>Fleuri</hi>,
+<hi rend='italic'>Lauguet</hi>, with many
+others, and <hi rend='italic'>Rollin</hi>, his peculiar Favourite and
+immediate Successor, <hi rend='italic'>all</hi> great Genius's, applauded
+Writers, and celebrated Wits. So
+that, as <hi rend='italic'>Ireland</hi> had the Honour of founding, it
+had also that of restoring and reviving the great
+University of <hi rend='italic'>Paris</hi>, in the Persons of two of
+its learned Natives.
+</p>
+
+<p>
+The Reign of her Majesty Queen <hi rend='italic'>Anne</hi> (glorious
+to her Arms, under the Conduct of <hi rend='italic'>John</hi>,
+Duke of <hi rend='italic'>Marlborough</hi>, and her other Generals,
+and justly distinguished by the Number of great
+Genius's and Wits, who enlightened that Period)
+was in this Kingdom chiefly employed in
+<emph>additional</emph> Acts against the further Growth of
+Popery: And many there were, who deemed it
+an unparallel'd Severity in her Majesty, to give
+her Royal Assent to them particular Laws; by
+which the <hi rend='italic'>Roman Catholicks</hi> of <hi rend='italic'>Ireland</hi>
+(already ruined by their inimitable Allegiance to her
+<pb n='048'/><anchor id='Pg048'/>
+Royal Father, Uncle, and Grandfather) were
+<emph>precluded</emph> from availing themselves, by a tolerable
+easy Lease, of any Part or Parcel of these Estates,
+forfeited by their Ancestors, thro' their
+unremitting Endeavours, to support and maintain
+that Stem, of which she was herself an immediate
+Branch.
+</p>
+
+<p>
+So late even as this Reign, the whole Kingdom
+of <hi rend='italic'>Ireland</hi> was a desolate diffusive Scene of
+total Decay! covered with all the ghastly Symptoms
+of the Consumption of Centuries! But,
+at length, on the happy Accession of his late
+Majesty of glorious Memory, the blissful Morning
+of Peace and Concord began its auspicious
+Dawn! Yet, as Time, publick Spirit, Patriotism
+(in its highest Conception) and unwearied
+Diligence, were all collectively essential to the
+giving Life, Vigour, and Activity, to national
+Industry and Improvement, so very long in a
+melancholy State of Languor and Oppression:
+Not before the present truly glorious Reign, did
+<hi rend='italic'>Hibernia</hi> tune her old Harp, now newly strung
+to universal Harmony and Elegance, and rear
+her awful Head from the stupid dismal Dozes
+of Ages; where comes the literal Application
+of my third Motto, <hi rend='smallcaps'>Renascimur</hi>.
+</p>
+
+<quote rend="display">
+<foreign lang="la" rend='font-style: italic'>Hinc priscæ redeunt Artes, felicibus inde
+Ingeniis aperitur iter, despectaque Musæ
+Colla levant.&mdash;&mdash;</foreign>
+</quote>
+
+<p>
+Having travelled through a tedious Night,
+thick-set with Horrors of various Hues! and
+thus come to the End of a painful Journey;
+give me Leave, kind Reader, to indulge awhile
+with admiring the beautiful Variety of Objects,
+which now surround me, to the serene Delight
+<pb n='049'/><anchor id='Pg049'/>
+of the Mind, and refined Gratification of Sense;
+before I attempt that Display of them to which
+I have no Occasion of professing my Inequality.
+</p>
+
+<p>
+In this Reign, and not before, our Linen
+Manufacture, in many Respects one of the most
+profitable Branches of our national Commerce,
+received all the Encouragement from Royal
+Bounty, and Parliamentary Sanction, that could
+be reasonably hoped for.
+</p>
+
+<p>
+Persons of the highest Rank, Dignity, and
+Fortune, were appointed <hi rend='italic'>Trustees</hi> for the Propagation,
+Encouragement, and Diffusion, of this
+beneficial Trade, throughout the respective Provinces.
+</p>
+
+<p>
+The <hi rend='italic'>Linen-Hall</hi> was erected in <hi rend='italic'>Dublin</hi>, under
+as just and nice Regulations as any commercial
+House in <hi rend='italic'>Europe</hi>.
+</p>
+
+<p>
+The North of <hi rend='italic'>Ireland</hi> began to wear an Aspect
+entirely new; and, from being (through
+Want of Industry, Business, and Tillage) the
+almost exhausted Nursery of our <hi rend='italic'>American</hi> Plantations,
+soon became a populous Scene of Improvement,
+Traffic, Wealth, and Plenty; and
+is, at this Day, a well-planted District, considerable
+for Numbers of well-affected, useful,
+and industrious Subjects.
+</p>
+
+<p>
+Now arose, now shone forth, the ever Honourable
+<hi rend='smallcaps'>Dublin Society</hi>; a Society equalled
+by none. It is true, we read of Patriarchs, Philosophers,
+Warriors, Orators, and Poets; of
+Senates, Parliaments, Councils, <hi rend='italic'>&amp;c.</hi> but we no
+where, abstracted from our own Country, meet
+a Set of pious Patriots, from their <emph>private
+Funds</emph>, adorning their Country in general, in
+every Degree and Branch of Industry, and Improvement;
+and, inspired with Sentiments truly
+public and social, munificently rewarding their
+<pb n='050'/><anchor id='Pg050'/>
+Countrymen, of whatsoever Denomination, without
+Favour or Distinction; for meliorating their
+proper Estates, or Farms; for excelling in any
+Production of Nature, or Art; for any Discovery,
+or Invention, useful to Mankind: A Set
+of <emph>truly honourable</emph>, and <emph>generous</emph> Personages, instructing
+their Countrymen with clear, yet philosophical
+Precepts, encouraging them by their
+Example, and rewarding them from their inexhaustible
+Bounty! <emph>Such</emph>, and <emph>such unrivalled</emph>,
+is the <hi rend='smallcaps'>Illustrious Dublin Society</hi>! What
+Pity, the ample Distributions, and instructive
+Writings of this learned and munificent Body, are not regularly published,
+in <hi rend='italic'>Latin</hi>, <hi rend='italic'>English</hi>,
+and <hi rend='italic'>French</hi>, for the peculiar Honour of this
+Nation, the Edification of Posterity, and as a
+bright Pattern of Imitation to all other civiliz'd
+Countries!
+</p>
+
+<p>
+Now likewise appeared the <hi rend='italic'>Philharmonic Society</hi>,
+that, (from a few Gentlemen, who used
+<emph>occasionally</emph> to meet, in order to while away an
+Hour with a gentle Tune, and chearful Glass)
+grew into an harmonious Body, not alone for
+the Improvement of the charming Art of Music,
+but for the <emph>effectual Relief</emph> also of successive
+Thousands, from Misery, Famine, and Confinement:
+<foreign lang="la" rend='font-style: italic'>Concordiâ res parvæ crescunt</foreign>.
+<hi rend='smallcaps'>Orpheus</hi>,
+we are told, built the Walls of <hi rend='italic'>Thebes</hi>,
+by the irresistible Powers of Harmony: Be this
+true or fabulous; how many Iron Gates have
+we not seen open, to the persuasive Charities of
+this tuneful Society! how many gloomy Cells
+vacated by their Charms! This elegant Society,
+by moderate Loans, Interest-free to the industrious
+Poor, prevents many such from getting
+into the Distress of Prisons, or following offensive
+Courses; and, by enabling them to obtain
+<pb n='051'/><anchor id='Pg051'/>
+an honest Livelihood, rendereth them useful
+Members to the Community: So that, of this
+Society, it might have been justly said,
+</p>
+
+<lg>
+<l><foreign lang="la" rend='font-style: italic'>Omne tulit Punctum quæ miscuit
+utile dulci.</foreign></l>
+</lg>
+
+<p>
+In this happy Reign was incorporated, under
+the protective Sanction of Royal Bounty, a
+Society, truly Christian, for the pious Establishment
+of <hi rend='italic'>Protestant</hi> <hi rend='smallcaps'>Charter-Schools</hi>
+throughout the Kingdom: An Institution far
+more productive of national Morality, and Reformation,
+than excommunicative Discipline, or
+restrictive penal Statutes; since Persuasion and
+Rewards have ever been, and must ever continue
+to be, more consistent with the meek and benevolent
+Temper of true Christianity, more effectual,
+Apostolic, and Catholic, than <emph>Punishments</emph>,
+<emph>Persecution</emph>, or <emph>Sequestrations</emph>.
+</p>
+
+<p>
+In this Reign shines out a Christian Divine,
+who, in the inestimable individual Dr. <hi rend='italic'>Madden</hi>,
+collects <emph>a whole Society of Patriots</emph>; a venerable
+Man, not alone the Guide of his particular
+Congregation, but a pure, also clear and lasting
+Light of Perfection, and noble Imitation, to
+his Countrymen in general.
+</p>
+
+<lg>
+<l>On <hi rend='italic'>Madden</hi>, kindred Angels smile!</l>
+<l>Bright Mirrour to his native Isle!</l>
+<l>To whom old Age shall say, and Youth,</l>
+<l>With grateful and prophetic Truth,</l>
+</lg>
+
+<p>
+<foreign lang="la" rend='font-style: italic'>Semper Honos, Nomenq; tuum, Laudesq;
+manebunt.</foreign>
+</p>
+
+<p>
+St. <hi rend='italic'>Patrick's</hi> Hospital, for the Reception of
+Lunaticks and Ideots, a lasting Monument of
+the late Dean <hi rend='italic'>Swift's</hi> Charity, as are his various
+<pb n='052'/><anchor id='Pg052'/>
+Writings, of his great Genius and Wit: <hi rend='italic'>Mercer's</hi>
+charitable Hospitable in <hi rend='italic'>Stephen-street</hi>: The
+noble Hospital for the Relief of poor Lying-inn-Women,
+of the Projection of our late excellent
+Countryman, Dr. <hi rend='italic'>Bartholomew Mosse</hi>;
+by which a great Number of Women and Children
+are preserved from miserable and untimely
+Ends: The <hi rend='italic'>Charitable Infirmary</hi> on the
+<hi rend='italic'>Inns-Quay</hi>: The New Hospital for <hi rend='italic'>Incurables</hi>,
+on <hi rend='italic'>Lazer's-Hill</hi>:
+St. <hi rend='italic'>Nicholas's</hi> Hospital, in <hi rend='italic'>Francis-street</hi>:
+The <hi rend='italic'>Meath</hi> Hospital, in <hi rend='italic'>Skinner's Alley</hi>:
+The <hi rend='italic'>Lock</hi> Hospital, in <hi rend='italic'>George's-Lane</hi>,
+for hapless Women and Children, tainted with the Venereal
+Infection: And the Charitable Hospital in <hi rend='italic'>King-street,
+Oxmantown</hi>, are all the humane and pious
+Growth of this transcendent Reign.
+</p>
+
+<p>
+Those Hospitals are duly and regularly attended,
+by the most eminent Physicians, and
+skilful Surgeons, without Fee or Reward: So
+that, from this obvious Consideration, the frequent
+and large Collections in our Churches, for
+the comfortable Support, and Christian Education,
+of indigent Boys; the stated Distributions
+of our Chief Magistrates, to the Helpless and
+Needy; and, in Truth, from the general Disposition
+of its worthy Inhabitants; we may,
+without any Risque of incurring the least Censure
+of Adulation, or Vanity, pronounce <hi rend='smallcaps'>Dublin</hi>
+as charitable a Metropolis as any in the known
+World. In the beautiful new Garden, plann'd
+by Dr. <hi rend='italic'>Mosse</hi>, breathing in all the natural Fragrance
+of the Spring, adorned with all the Elegancies
+of Art, all the Splendor of Illumination,
+and inspired with the most soothing
+Charms of delightful Harmony; to behold
+Crowds of young Ladies, in the full Glow of
+Beauty, and Bloom of Youth, finely habited,
+<pb n='053'/><anchor id='Pg053'/>
+and elegantly decorated in the Manufactures of
+our own Country, (and finished in the most exquisite
+Taste, by our own Artizans); to behold
+them, I say, converting their very Amusements
+and Recreations to the heavenly Purposes of relieving
+the Distressed, must, to every thinking
+<hi rend='italic'>Irish</hi> Spectator, afford a Prospect of the utmost
+rational Joy!
+</p>
+
+<p>
+As all Men, who render their Country distinguished
+Honour, or singular Service, deserve,
+therefore, lasting Monuments of public grateful
+Acknowledgment to their Memories; it is
+hoped that, in this Respect, Dr. <hi rend='italic'>Mosse</hi> will not
+be forgotten by those who are evidently fond of
+encouraging and rewarding public Zeal:
+</p>
+
+<lg>
+<l>Eternal Joys to <hi rend='italic'>Mosse</hi> kind Heaven give,</l>
+<l>By whom, on Earth, so many Thousands live!</l>
+</lg>
+
+<p>
+The <hi rend='italic'>Marine Society</hi>, of recent Institution also,
+disposeth many poor young Men into a Condition
+of acquiring an honest, and praise-worthy
+Livelihood, and of becoming useful Members
+of the Community; by serving on Board of his
+Majesty's Fleets in War-time, and serving our
+Merchants in Times of Peace; and, in this
+double Capacity, of contributing to the general
+Welfare of their Mother-Country, to which
+they may otherwise prove a Burden.
+</p>
+
+<p>
+Our publick Entertainments of various Kinds
+are, for the most Part, conducted with strict
+Propriety, and real Politeness; those especially
+of the Theatre, which should, by no Means,
+pass for Matter of slight or casual Consideration;
+seeing the <hi rend='italic'>Romans</hi>, the greatest of all People,
+esteemed the Theatre worthy the Attention of
+particular Laws, <hi rend='italic'>Roscia Lex Theatralis</hi>, &amp;c. Mr.
+<pb n='054'/><anchor id='Pg054'/>
+<hi rend='italic'>Sheridan</hi>'s general Merit as a <hi rend='italic'>Player</hi>
+stands confessed; but as a <hi rend='italic'>Manager</hi>, that Gentleman's falling
+frequently under the heavy Displeasure of
+the Public, (whether from an haughty Distaste
+to his Profession, or indulged Arrogance of
+Temper) with his violent Introduction of anti-dramatick
+Rope and Wire-dancing, Tumbling,
+and Fire-eating, to the visible Degradation of a
+liberal Stage, whereon nothing mean, shocking,
+or monstrous, should ever appear; he hath not
+succeeded so well: Then, his Scheme of uniting
+an Academy, for the sober regular Education
+of Youth, with a publick Theatre, seemed
+rather the feverish Delusion of a distempered
+Brain, and heated Imagination, than the cool
+deliberate Result of rational Judgment; from
+which fermented Source, also seem'd directly to
+flow his avowed Concern for the <emph>long lost Art of
+Oratory</emph> among us: Had Mr. <hi rend='italic'>Sheridan</hi> attended
+to the Debates of our High Court of Parliament;
+been frequent in our different Churches,
+and at the Bars of our Courts of Judicature;
+and had, in this Case, formed a comparative
+Judgment, from the Writings of <hi rend='italic'>Demosthenes</hi>,
+<hi rend='italic'>Plato</hi>, <hi rend='italic'>Isocrates</hi>,
+<hi rend='italic'>Cicero</hi>, and <hi rend='italic'>Pliny</hi> the Younger;
+from the Rules and Precepts of <hi rend='italic'>Aristotle</hi>,
+<hi rend='italic'>Longinus</hi>, <hi rend='italic'>Horace</hi>,
+<hi rend='italic'>Quinctilian</hi>, <hi rend='italic'>Scaliger</hi>,
+<hi rend='italic'>Rapin</hi>, <hi rend='italic'>Porée</hi>,
+and <hi rend='italic'>Rollin</hi>; he had been <emph>then</emph> convinced how
+little Occasion there was for his <emph>lamenting</emph> the
+<emph>Loss</emph> of an Art in this Kingdom, which breathes
+there in full Maturity of all it's persuasive
+Charms. This his dogmatical Assertion of the
+<emph>long-lost Art of Oratory</emph>, his wild <emph>Academical</emph> Projects,
+with the foregoing theatrical Inconsistencies,
+too much subject that Gentleman to the
+Character given, by the <hi rend='italic'>Roman</hi> Satirist, of an
+assuming sharp-set <hi rend='italic'>Greekling</hi>:
+</p>
+
+<pb n='055'/><anchor id='Pg055'/>
+
+<quote rend="display">
+<hi rend='italic'>Gramaticus, Rhetor, Geometres, Pictor, Aliptes,
+Augur, Scœnobates, Medicus, Magus, omnia novit.</hi>
+</quote>
+
+<p>
+Upon the Whole, I will readily grant Mr.
+<hi rend='italic'>Sheridan</hi> a <hi rend='italic'>Roscius</hi>, if the Name can sooth
+him; a <emph>Critic</emph>; nay, an <emph>Orator</emph>; but I shall be bold
+to assert, that we have many, very many, in
+this Kingdom, of far greater Powers than that
+Gentleman, whereof some of his Orations, <emph>so
+called</emph>, are incontrovertible Testimonies.
+</p>
+
+<p>
+This Kingdom hath of late Years exhibited
+as justly celebrated Male and Female Players,
+as any other; evinced in the Characters of
+Messieurs <hi rend='italic'>Quin</hi>, <hi rend='italic'>Ryan</hi>,
+<hi rend='italic'>Delane</hi>, <hi rend='italic'>Sheridan</hi>,
+<hi rend='italic'>Barry</hi>, <hi rend='italic'>Mossop</hi>,
+<hi rend='italic'>Dexter</hi>, <hi rend='italic'>Sparks</hi>, Mrs.
+<hi rend='italic'>Woffington</hi>, the
+inimitable Mrs. <hi rend='italic'>Fitz-Henry</hi>, and several others,
+of either Sex.
+</p>
+
+<p>
+Mr. <hi rend='italic'>Barry</hi>'s Capacity, as a Manager, appeareth
+equal to his eminently-affecting Powers
+in Tragedy, (so generally known, and so unexceptionably
+confessed) from the magnificent
+Theatre, erected by that Gentleman, with amazing
+Expedition, in Grandeur, Convenience,
+and Elegance, preferable to any in <hi rend='italic'>London</hi>, or
+<hi rend='italic'>Paris</hi>: From the obliging Decency the respective
+Performances thereof are conducted with, and
+evidently from the surpassing theatrical Abilities
+of the Company, that, with the most engaging
+Variety, entertains the Publick in <hi rend='italic'>Crow-street</hi>
+Play-house. I have sometimes seen, and have
+been as often delighted, with Performances of
+the Gentlemen just mentioned, as with those of
+the admired Mr. <hi rend='italic'>Garrick</hi>, and the famous Messieurs
+<hi rend='italic'>Dufrésne</hi>, <hi rend='italic'>Gossin</hi>, and
+<hi rend='italic'>Quinault</hi>; and, if I
+may take Leave to declare my Opinion, am
+therein clear that Mr. <hi rend='italic'>Barry</hi>, in the exquisitely
+<pb n='056'/><anchor id='Pg056'/>
+pathetick Strokes of deep Tragedy, touches the
+Soul with as much delicate Sensibility, and, in
+the irrefrainable Sallies of the more boisterous
+Passions, soars with as majestick Wings, as any
+one of them, I will not say higher. To behold
+Mr. <hi rend='italic'>Barry</hi>, sublimely struggling in a Storm of
+Adversity, with the sudden Shocks, and unexpected
+Blows of Fortune; <emph>then</emph>, (when all human
+Efforts must yield to inevitable Necessity)
+sinking in the irretrievable Plunge of Sorrow
+and Calamities, with that calm Resignation ever
+attendant on true Heroism; must convince any
+judicious Spectator of his being born a Tragedian.
+I must here declare, that what I have
+advanced on this Subject neither ariseth from
+Prepossession on one Side, or Prejudice on the
+other; having no Manner of Connection, nay,
+not even a personal Acquaintance, with Mr.
+<hi rend='italic'>Barry</hi>; nor any Objection to Mr. <hi rend='italic'>Sheridan</hi>,
+but such as must naturally issue from my just Resentment
+against any Individual, of whatsoever
+Rank, Character, or Denomination, who should
+prove so ignorant, and yet so hardy, as to declare
+<hi rend='italic'>Elocution lost</hi> in our native Country; an illiberal
+Censure, which, if true, had necessarily wrapped
+our High Court of Parliament, the whole Body
+of our Clergy, our University, Bench and Bar,
+in Shades that, I am certain, had been never
+dispell'd by the Approach of Light, so dim and
+glimmering as that Gentleman's.
+</p>
+
+<p>
+Let us now take a summary View of the Inhabitants
+of <hi rend='italic'>Ireland</hi>, in their respective Ranks:
+And to begin with the Peers: Are they not such
+Personages, as, by their Munificence, Affability
+of Manners, Easiness of Comportment,
+Propriety of Appearance, and Generosity in
+dealing, reflect true Honour on Nobility; and,
+<pb n='057'/><anchor id='Pg057'/>
+Reality, derive their superior Rank, as much
+from the Pre-eminence of their Virtues, as from
+the constitutional Dignity of their Titles?
+</p>
+
+<p>
+The Encrease of our People, Wealth, Commerce,
+Industry, Arts, Inventions; the extraordinary
+additional Number, in this happy
+Reign, of our beautiful Seats, elegant Improvements,
+useful and ornamental Plantations, extensive
+Inclosures, excellent high Roads, (formerly
+almost impassable,) with the visible Reformation
+in national Harmony, and Allegiance,
+will best suggest an Idea of the Honourable the
+House of Commons of <hi rend='italic'>Ireland</hi>, composed of
+such candid Spirits, as, neither the Smiles or
+Frowns of superior Influence, popular Views,
+or private Connections, can bend from the various
+essential Duties due to their King, their
+Country, and themselves; constant in their
+Attendance; careful in their Protection; and
+zealous in their Promotion of publick Felicity;
+not more extensive in their noble Projects, for
+this great Purpose, than expeditious in carrying
+those into Execution.
+</p>
+
+<p>
+Our Constitution, partly of <hi rend='italic'>Gothic</hi>, partly of
+<hi rend='italic'>Norman</hi> Institution, (the first High Court of
+Parliament on the present Establishment, having
+been ordained in the Reign of <hi rend='italic'>Henry</hi> the First,
+Son of <hi rend='italic'>William</hi> the Conquerer) avoiding the
+turbulent Licentiousness of a <hi rend='italic'>Democracy</hi>, the
+factious domineering Temper of <hi rend='italic'>Aristocracy</hi>, and
+the variable oppressive Sway of <hi rend='italic'>Arbitrary Monarchy</hi>;
+but including, by an harmonious Assemblage,
+the essential Virtues of those different
+Systems of Government; is unquestionably the
+<emph>best digested</emph> and <emph>wisest</emph> in the known World:
+Under which, the King and the Nobles, with
+the Commons, <emph>unite</emph>, to extend the Commerce,
+<pb n='058'/><anchor id='Pg058'/>
+promote the Happiness, guard over the Safety,
+preserve the Lives, defend the Characters, support
+the Liberties, and protect the Property of
+the People. Bless'd Constitution! O! may it
+ever flourish! under whose mild and preservative
+Influence, a few only feel Restraint; except
+from the Commission of private Evil, or
+social Injury.
+</p>
+
+<p>
+I have said a <emph>Few only</emph>; because there are some
+among us, who, on the Score of Religion, are
+secluded from permanent Property: And even
+Those, it is hoped, will, in Consideration of the
+invariable Tenor of their humble and pacific
+Conduct, from the Capitulation of <hi rend='italic'>Limerick</hi>, to
+this Day; and from their unanimous and chearful
+Obedience to our Civil Government, e're
+long obtain some Mitigation of their Affairs;
+such the benevolent Temper and Disposition of
+the present incomparable Reign! Some late
+excellent<note place='foot'><hi rend='italic'>Seasonable Thoughts</hi>, &amp;c.
+published by <hi rend='italic'>George Faulkner</hi>; <hi rend='italic'>the Case of
+the Roman Catholics</hi>, and <hi rend='italic'>the Principles of the
+Roman Catholics</hi>, the two last published by <hi rend='italic'>P. Lord</hi>, in
+<hi rend='italic'>Cook-street, Dublin</hi>.</note>
+Pamphlets, wherein these Gentlemen's
+political Principles are fully and clearly explained,
+shew of what signal Advantage it had been
+to the Numbers, Industry, Health, Wealth,
+and Beauty of this Kingdom, to indulge them
+a Property, even in our uncultivated Mountains,
+dreary Wastes, and noxious Marshes:
+Which Measure, should it appear in a true Light
+to our worthy Representatives, we may in a
+few Years more, hope to see <hi rend='italic'>Ireland</hi> one of the
+most beautiful, best-improved, best-conditioned
+Islands in the Universe. Our Bench is adorned
+with Honourable Personages, conspicuous for
+Learning, Integrity, Humanity, and Impartiality;
+<pb n='059'/><anchor id='Pg059'/>
+of whom, it may be boldly affirmed,
+and with the strictest Truth, that they are not
+Favourers of Persons. The present Lord Chief
+Justice of the <hi rend='italic'>King-Bench</hi>, the late Master of
+the Rolls, and Chancellor of the Exchequer,
+Natives of <hi rend='italic'>Ireland</hi>, formed a Triumvirate, whose
+Learning, Worth, and distinguished Abilities,
+had rendered them eminently respectable in the
+brightest Æras, either of the <hi rend='italic'>Roman</hi> Commonwealth,
+or Empire.
+</p>
+
+<p>
+Our Attorney and Solicitor General, our Serjeants
+at Law, and King's Council, with many
+eminent Barristers, and a Set of learned eloquent
+young Gentlemen, all shining out together;
+such as <hi rend='italic'>Tully</hi>, <hi rend='italic'>Hortensius</hi>, and
+<hi rend='italic'>Pliny</hi>, had with
+fond Tenderness cherished and with pleasing
+Pride, avowed for their Pupils; form as distinguished
+a Body of Advocates and Orators, as
+adorn any Courts of Judicature in <hi rend='italic'>Europe</hi>.
+</p>
+
+<p>
+In the Diocese of <hi rend='italic'>Dublin</hi> existeth a truly
+pious Society for the Relief and Support of the
+Widows and Children of the inferior Clergy
+thereof. It is, indeed, surprizing in a Kingdom,
+such (thank Heaven) as <hi rend='italic'>Ireland</hi> is, that
+the Example of this charitable Society, hath
+not been <emph>universally</emph> followed. It hath often
+affected me to the Quick, to have seen a learned
+Divine, after a tedious and painful Free-School
+Institution, and expensive University Education,
+struggling, upon a poor Pension or Salary of
+<emph>Forty</emph> Pounds a Year, to maintain an honest
+Gentlewoman, Children, and Servants, (and
+really with some Decency of Hospitality) sedulously
+discharging, at the same Time, the different
+Duties of the pastoral Function; when a
+<emph>foreign Fidler</emph> shall run away with tripple that
+Sum, or more, for one Night's Performance.
+<pb n='060'/><anchor id='Pg060'/>
+I would by no Means be understood to derogate
+from the Merits of fine Performers in the different
+Parts of Musick, or endeavour to diminish
+their reasonable Perquisites: But, surely,
+such Men and such Things are not to be thought
+of, in Competition with those, who, by Teaching
+and Preaching, refine our Morals, instruct
+our Understandings, inform our Lives, and enlighten
+our Souls with the celestial Spirit of the
+Christian Faith; and thereby happily lead us,
+through this transient and precarious State, to
+eternal Tranquilly and Bliss. I am not a
+Preacher; but thus far shall venture: As the
+Fear of the Lord is the Beginning of Wisdom,
+our generally following the heavenly Example
+of this venerable Society, must be a great Test
+as well of the one, as the other. If the Bishops,
+the temporal Lords, and great estated Men of
+each Diocese, would but graciously lead the
+Way, it is not unlikely they had been attended
+by Crowds of zealous Followers: And, in Fact,
+a <emph>small</emph> Matter <emph>annually set apart</emph>, from even the
+superfluous Outgoings of the Wealthy and
+Opulent, of different Ranks, would very happily
+answer the generous noble End of preserving,
+from an anxious State of particular Dependance,
+Numbers of virtuous, well-educated
+Gentlewomen, and their Children, from the various
+Miseries, which the untimely Death of a
+Father, and narrow Circumstances, but too frequently
+expose them to; an End so every Way
+worthy the natural Disposition, the benevolent
+Temper, the inherent Hospitality, and the essentially-charitable
+Character of <hi rend='italic'>Ireland</hi>.
+</p>
+
+<p>
+Our <hi rend='italic'>Protestant</hi> Brethren, the <hi rend='italic'>Dissenters</hi>,
+by a prudent and pious Regulation of secreting one
+Pound a Year, each parochial Minister, for this
+<pb n='061'/><anchor id='Pg061'/>
+religiously humane Purpose, have constantly a
+Fund sufficient to allow the Relict of each
+Clergyman twenty Pounds a Year, (which preserves
+her from the Miseries of Want and Dependance)
+and have, at some Periods, where-with
+to set their Children up, in an honest and
+creditable Way of living. As we are emulously
+fond of adopting the Wisdom and Virtues of
+each Christian Sect and Society, it is fervently
+hoped we will also this tender and pious Scheme;
+a Scheme so comprehensive of true Charity, and
+so productive of social and happy Effects! How
+difficult is it for Minds, crowded with Cares,
+and beset with the pressing Calls of Family-preservation,
+to attend, with due Composure and
+Inclination, to the various indispensible Duties
+of the pastoral Office? But how chearfully would
+those Reverend Gentlemen proceed in their
+divine Mission, when, by some visible Provision
+for the proper Objects of their present Cares and
+future Concern, they should, in a great Measure,
+be released from domestick Anxiety, from
+gloomy Apprehensions, and alarming Prospects,
+into the temporal Futurity of those, for whom
+they must be necessarily affected with the most
+tender Feelings!
+</p>
+
+<p>
+The most convincing and decisive Method of
+adjudging Causes, being by a comprehensive
+View and critical Examination of their Effects;
+of Streams, by a nice Scrutiny and Investigation
+of their Sources; hence may we, from the
+shining Characters, and extensive Abilities of
+our Divines and Barristers, frame a just Idea of
+the University of <hi rend='italic'>Dublin</hi>, which, for Compass
+and Extent of the Sciences, Variety of elegant
+Arts, found Erudition, and polite Literature
+therein taught, in the most regular and perspicuous
+<pb n='062'/><anchor id='Pg062'/>
+Methods, is equalled by few, excelled by
+none.
+</p>
+
+<p>
+The Students are carefully instructed in the
+more refined Parts of classical Learning; oriental,
+antient, and modern Languages; Criticism,
+sacred and profane History, Oratory, Logick,
+Ethicks, and Metaphysicks; in natural and experimental
+Philosophy; Anatomy, Botany and
+Chymistry; the mathematicks, in Theory and
+Practice; Civil and Canon Laws; Theology,
+Controversy, and Ecclesiastical History: So
+that, with a good Capacity, and regular Application,
+one may depart this University, as
+completely and happily instituted for the honorary
+Professions of Life, as may be reasonably
+expected from any Nursery of Learning extant.
+The obtaining a Fellowship in this University,
+is a demonstrative Test of comprehensive native
+Talents, thorough intellectual Cultivation,
+deep and various learned Acquirements.
+</p>
+
+<p>
+The <hi rend='italic'>Newtonian</hi> Philosophy, the excellent
+<hi rend='italic'>Boyle</hi>'s experimental Philosophy, and Mr.
+<hi rend='italic'>Locke</hi>'s Metaphysicks,
+prevail much in the College of <hi rend='italic'>Dublin</hi>:
+Which, for Extent, Convenience, Magnificence,
+and a most sumptuous elegant Library,
+exceeds any one College in <hi rend='italic'>Europe</hi>. The beautiful
+Parks belonging to it, seem actually, on a
+serene Evening, the delightful Vale of <hi rend='italic'>Tempe</hi>,
+or enchanting Recesses of <hi rend='italic'>Parnassus</hi>, inhabited
+by all the Muses, all the Graces, with their
+charming Train.
+</p>
+
+<p>
+The Trade of <hi rend='italic'>Ireland</hi>, however in former
+Times miserably restrained and limited, hath in
+this happy Reign received considerable Enlargements;
+such as, the opening several Wooll-Ports;
+the Bounty on <hi rend='italic'>Irish</hi> Linens, now our
+staple Commodity, imported into <hi rend='italic'>Great-Britain</hi>;
+<pb n='063'/><anchor id='Pg063'/>
+and the Immunity lately granted of importing
+thither Beef, Butter, Tallow, Candles, Pork,
+Hides, live Cattle, <hi rend='italic'>&amp;c.</hi> a Privilege that, in its
+Consequences, must prove of signal Advantage
+to both Nations; to <emph>this</emph> especially, as we shall
+hereby be enabled, upon any occasional Exigency,
+to supply our protecting Friends, and proportionably
+stint the Hands of our Enemies,
+who, (by the Profusion of Wines and spirituous
+Liquors, annually exported from <hi rend='italic'>France</hi> to
+Ireland, in Exchange for our Beef, Butter, <hi rend='italic'>&amp;c.</hi>
+to pass over the Gluts of Teas and Spirits, <hi rend='italic'>&amp;c.</hi>
+smuggled thence by the <emph>western</emph> Runners) have
+constantly the Balance on their Side. Our Exports,
+with those already mentioned, consist in
+a few Cheeses, Salmon and Kelp: But, as our
+Linens are, without Question, become the vital
+Spring of <hi rend='italic'>Irish</hi> Commerce, it is Matter of great
+Concern and equal Surprize, that the other Provinces
+do not more <emph>universally</emph> and <emph>effectually</emph> follow
+the lucrative Example of the <hi rend='italic'>North</hi>! since,
+it is evident, nothing but <emph>equal Industry</emph> can be
+wanting to render them <emph>equally flourishing</emph>, The
+Over-growth of Graziers and Stockmasters, is
+the strongest Indication that can be of national
+Waste and Decay, in respect of Inhabitants.
+What could a Foreigner, travelling among us,
+particularly in the <emph>western</emph> Counties, some Summers
+past, judge of our national Wisdom and
+Oeconomy? Would he not start even at our
+Humanity, on seeing the best arable Grounds
+in the Kingdom, in immense Tracts, wantonly
+enjoyed by the Cattle of a few petulant Individuals;
+and at the same Juncture, our high
+Ways and Streets crowded with Shoals of mendicant
+fellow-creatures! reduced, through Want
+of proper Sustenance, to the utmost Distress?
+<pb n='064'/><anchor id='Pg064'/>
+Would not a <hi rend='italic'>Frenchman</hi> for Example, give a
+Shrug extraordinary, at finding, in every little
+Inn, <hi rend='italic'>Bourdeaux</hi> Claret and <hi rend='italic'>Nantz</hi> Brandy,
+though, in all Likelihood, not a Morsel of <hi rend='italic'>Irish</hi>
+Bread?
+</p>
+
+<p>
+It is much to be hoped, That, when the Spirit
+of Tillage should become more general and
+active, our Farmers more attentive to the
+Growth of the best Kinds of Grain, and our
+Brewers, more attentive to the Rules and Precepts
+for that Purpose laid down by the Honourable
+the <hi rend='smallcaps'>Dublin Society</hi>; we shall have
+little or no Occasion for that Inundation of <hi rend='italic'>London
+Porter</hi>; (an heavy, cloudy, intoxicating,
+ill-flavoured Liquor) that annually overflows
+this City and other Parts of the Kingdom; as,
+in the above Case, we may have a sufficient
+Plenty and Variety of Malt Liquors, our own
+native Produce, far better than any imported;
+and, in Case of a Redundancy of Grain, (a
+Matter not very likely to happen) may, with
+moderate Care, have Spirituous Liquors of far
+a more wholesome Nature, exquisite Taste, and
+delicate Flavour, than those imported at an extraordinary
+Expence; and but too often adulterated,
+in the first Concoction.
+</p>
+
+<p>
+We have, in several Parts of this Kingdom,
+(in the Province of <hi rend='italic'>Munster</hi> especially) a recy,
+spirituous, fine-flavoured Cyder, very little, if
+at all, inferior to the best imported White
+Wines; and a moderate Plenty of grateful
+Honey-Liquors, which, with our prime Beef,
+Mutton, Pork, Veal, Lamb, Variety of Fowls,
+tame and wild; red and fallow Deer; Hares,
+Rabbits, Pidgeons, Pheasants, Grouse; and
+Partridge; wild Duck, Plover, Snipe, <hi rend='italic'>&amp;c.</hi>
+Lake, River, Shell and Sea Fish, of all Kinds;
+<pb n='065'/><anchor id='Pg065'/>
+the Produce of the Garden, (Horticulture having
+of late Years so vastly improved among us,
+that we now have many curious Plants, Fruits,
+and Flowers, not only not <emph>known</emph>, but never
+even <emph>heard of</emph>, in former Times) and <emph>all</emph> in such
+Plenty and Perfection, as demonstrate <hi rend='italic'>Ireland</hi>
+happier than most other Countries, in regard
+of the Necessaries and even of the Delicacies of
+Life; to which may be added, the great Number
+of our beautiful Lakes, noble Rivers, pure
+Fountains, limpid Streams, and Health-restoring
+mineral Wells.<note place='foot'>To all the above Productions of
+<hi rend='italic'>Ireland</hi>, may be justly
+added, our inestimable Fisheries, and plentiful Mines, which,
+under due national Encouragement, would raise immense
+Treasures.</note> In this Country are bred
+valuable Horses, for the Draught, Road, and
+Chace; and for the Course, as high-formed
+ones, as in any Part of <hi rend='italic'>Europe</hi>; and large horned
+Cattle, and Sheep in Abundance.
+</p>
+
+<p>
+It must afford real Satisfaction to consider the
+universal and visible Reformation in the Lives
+and Morals even of our common People, clearly
+evinced in this, that (thank Heaven) fewer
+legal Punishments succeed an entire Circuit, in our
+happy Days, than did a single Assize in former
+Reigns: And, without Question, this Reformation
+must still rise higher, in Proportion to the
+Lenity of our worthy Legislature, and wise Indulgence
+of our landed Men, who must certainly
+find it more conducive to the Welfare of the
+State, and to their own Strength, Honour, and
+Interest, to have their Estates farmed and inhabited
+by a great Number of honest, laborious
+improving Families, than wasted by a few Purse-proud
+Bullock-Brokers, who rarely allow the
+wretched Herd of an hundred, as much Ground
+<pb n='066'/><anchor id='Pg066'/>
+for his own and poor Family's Support, as is
+equal to that of two Bullocks.
+</p>
+
+<p>
+Suppose a Gentleman was to let two thousand
+Acres of arable Ground to farm; were it not
+demonstrably more conducive to all the foregoing
+Motives, to dispose of these to twenty honest,
+industrious Families, at an hundred Acres each,
+than to any one Beau-Grazier whatever? From
+the twenty Tenures, the Landlord may, in any
+national Shock, raise a considerable Number of
+effective Hands, and zealous Hearts, for the
+Service of the Crown, or Defence of his Country;
+and reap many signal Advantages to the
+public and private Concernments of Life, not
+possibly derivable from the anti-social Monopolizers
+and Forestallers of Farms; who ever fondly
+attribute their Growth to their own Sagacity
+and Cleverness, without any the least Gratitude
+or Obligation to the Land-owner. These Sentiments,
+it is hoped, will every Day gain more
+and more Consideration with our wise and beneficent
+Legislature, Nobility and Gentry.
+</p>
+
+<p>
+Many intelligent Persons, of all Ranks, complain
+much of the Want of some Establishment
+in the Way of a national Bank, to secure popular
+Credit, and the Kingdom from the various
+alarming Shocks it is so frequently incident to,
+on Account of the Failure of particular Banks.
+</p>
+
+<p>
+The Nobility and Gentry of <hi rend='italic'>Ireland</hi>, are
+Loyalists and Patriots by Principle and Education:
+They are brave, without Arrogance; gay,
+without Levity; polite, without Affectation;
+charitable, without Ostentation; religious, without
+Formality; affable, without Meanness;
+generous, without View; and hospitable, without
+Reserve: In their Converse, easy; in their
+Dealings just; placable in their Resentments, in
+<pb n='067'/><anchor id='Pg067'/>
+their Friendship steady:&mdash;They have neither
+the volatile Airyness of the <hi rend='italic'>Frenchman</hi>, the stated
+Gravity of the <hi rend='italic'>Spaniard</hi>; the supicious Jealousy
+of the <hi rend='italic'>Italian</hi>; the forbidding Haughtiness of
+the <hi rend='italic'>German</hi>; the saturnine Gloominess of the
+<hi rend='italic'>Flandrican</hi>, nor the sordid Parsimony of the
+<hi rend='italic'>Dutchman</hi>: In short, they are neither whimsical,
+splenetic, sullen or capricious:&mdash;And, as for
+Cunning, Craft, or Dissimulation, these are such
+sorry Guests as never found Shelter in the generous
+Breast of an <hi rend='italic'>Irish</hi> Noble or Gentleman; so
+that, if we consider this Country, with regard
+to its military Fame, constitutional Wisdom,
+Learning, Arts, Improvements, and natural
+Advantages; and above all, the benevolent
+Temper, charitable and hospitable Disposition
+of its Inhabitants; it is true, we may find many
+of more popular Bustle and Eclat, more extensive
+Commerce, greater Opulence and Pomp;
+but none of more general, solid, and intrinsick
+Worth, than <hi rend='italic'>Ireland</hi>.
+</p>
+
+<p>
+I shall conclude with the following Proposition
+to any one, who may arrogate to himself
+Praise or Wit, by ridiculing <hi rend='italic'>Ireland</hi>.
+</p>
+
+<lg>
+<l><foreign lang="la" rend='font-style: italic'>Si quid Novisti rectius
+istis&mdash;</foreign></l>
+<l><foreign lang="la" rend='font-style: italic'>Candidus imperti; Si non, his utere
+mecum.</foreign></l>
+</lg>
+
+</div>
+
+<pb n='068'/><anchor id='Pg068'/>
+
+<div rend="page-break-before: always">
+<index index="toc"/>
+<index index="pdf"/>
+<head>The Farmer's Case Of The Roman-Catholics Of <hi rend='italic'>Ireland</hi>.</head>
+
+<p>
+In a <hi rend='smallcaps'>Letter</hi> from a <hi rend='smallcaps'>Member</hi> of the
+<hi rend='smallcaps'>Protestant Church</hi>.
+</p>
+
+<p>
+<hi rend='smallcaps'>Dear Sir</hi>,
+</p>
+
+<p>
+I think myself indebted to any Occasion
+that restores you to a Friend,
+whom I feared you had long forgotten.
+But I confess, at the same
+Time, that the Pleasure of hearing
+from you, after a Silence of Several Years, is,
+in some Measure, damped by the Censure that
+seems to constitute the chief Intent of your
+Letter.
+</p>
+
+<pb n='069'/><anchor id='Pg069'/>
+
+<p>
+You tell me that you lately happened upon
+some Papers that were entitled The FARMER's
+LETTERS, <hi rend='italic'>&amp;c.</hi> which were imputed to me
+as the Author. And, after some Compliments
+on Spirit, and Genius, and so forth, in order to
+palliate, as I suppose, what you purpose to administer,
+you charge me, by Implication, with
+Crimes, whose smallest Tendency I should abhor
+in myself, as in any Man breathing.
+</p>
+
+<p>
+You say, favourably enough for your own
+Disposition, that you have long looked on the
+<hi rend='italic'>Roman-Catholics</hi> of these Kingdoms as a discountenanced
+and pitiable People. That you
+would choose to allow to others the same Latitude
+of Conscience that you like for yourself.
+That it is not a Part of Humanity to break a
+Reed already bruised. That such a Treatment
+would be blameable respecting any Individual;
+how much more so, in Prejudice of a whole
+People. That those Papers are pointed with a
+Keenness of Enmity, for which the Talents,
+which you are pleased to ascribe, cannot sufficiently
+apologize. And, that you did not think
+me capable of exasperating Government and
+Power against a Set of Men who were already
+under the Displeasure and Depression of the
+Law.
+</p>
+
+<p>
+These, my dear Friend, are home and heavy
+Accusations, however tempered by Expressions
+of Kindness and Affection from the Man whom
+I sincerely love and respect.
+</p>
+
+<p>
+But, if I know any-thing of myself, the Quality,
+called Ill-nature, is not my Characteristic.
+I would not exchange one Grain of Good-heart
+for all the Wit of a <hi rend='italic'>C----d</hi> or Comprehension
+of a <hi rend='italic'>P--tt</hi>, independent of their Virtue.
+And I may say, with great Truth, that an Excess
+<pb n='070'/><anchor id='Pg070'/>
+of Humanity hath occasioned all the Misfortunes
+and Distresses of my Life.
+</p>
+
+<p>
+I most solemnly assure you, that when I wrote
+those Letters I was in perfect Love and Charity
+with every <hi rend='italic'>Roman Catholic</hi> in the Kingdom of
+<hi rend='italic'>Ireland</hi>. I knew that they were a depressed People.
+I had long pitied them as such. I was
+sensible that the Laws, under which they suffered,
+had been enacted by our Ancestors, when
+the Impressions of Hostility were fresh and
+warm, and when Passion, if I may venture to
+say so, co-operated, in some Measure, with
+Utility and Reason. I will go a Step further.
+I thought those Laws not severe enough to suppress
+them as Enemies, nor yet sufficiently favourable
+to attach them to us as Friends. They
+were not so cruel as, wholly, to serve for quelling;
+and yet they had a Poignancy that might
+tend to provoke. And all this I imputed to the
+Resentment that was blended with the Humanity
+of our Ancestors. Their Humanity left to Papists
+a Power of hurting, while their Resentment
+abridged the Inducements that might engage
+them to serve us.
+</p>
+
+<p>
+Believe me, Sir, I never was of a cruel or
+persecuting Disposition. I was grieved to see
+the Discouragements under which the <hi rend='italic'>Roman
+Catholics</hi> of this Kingdom laboured, but these
+very Discouragements made me fear them the
+more.
+</p>
+
+<p>
+Previous to the Letters, which you censure so
+warmly, a dangerous Rebellion had broken out
+in <hi rend='italic'>Scotland</hi>, in consequence of a <hi rend='italic'>French</hi>
+Invasion, that was headed by a Popish Pretender to the
+Throne. Be pleased to remember, (if it is not
+too mortifying a Recollection for a free-born
+<hi rend='italic'>Briton</hi>) the Pannic into which all <hi rend='italic'>England</hi>
+was
+<pb n='071'/><anchor id='Pg071'/>
+struck by a few <hi rend='italic'>Scotch</hi> Vassals, undisciplined, and
+unactuated by any Motive of Liberty or Virtue,
+save the Virtue of being attached to their
+<hi rend='italic'>Laird</hi> or their <hi rend='italic'>Leader</hi>. Millions of
+<hi rend='italic'>English</hi>, at
+that Time, sunk in the Down of a long Peace,
+and enervated by ministerial Corruption and Venality,
+feared that a Handful of <hi rend='italic'>Highlanders</hi>
+would win their Way to <hi rend='italic'>London</hi>, and, at one
+Stroke, put a Period to the boasted Strength and
+Grandeur of the <hi rend='italic'>British</hi> Constitution.
+</p>
+
+<p>
+I was astonished at the Apprehensions that
+<hi rend='italic'>England</hi> was under from so contemptible an Armament.
+But I deemed the Case of <hi rend='italic'>Ireland</hi> to
+be highly alarming. The <hi rend='italic'>Roman-Catholics</hi>, at
+that Time, outnumbered us Five to One. They
+were disarmed, it is true, but I was not equally
+sure that they had Reason to be reconciled. As
+they were not admitted to realize their Fortune,
+it consisted of ready Money, and that gave
+ready Power. As they were not permitted to
+purchase, or accept a Tenure of any valuable
+Length, Loyalty, perhaps, might induce them
+to fight for their King; but where was the Stake
+to impel them to fight for a Country in which
+they had no <hi rend='italic'>Inheritance</hi>? Without an Interest
+in Lands, they had little to lose by any Change
+of Estate. Without a Loan lodged with Government,
+they had the less to lose by a Change of
+Constitution.
+</p>
+
+<p>
+I cannot conceive how <hi rend='italic'>Religion</hi>, or mere Difference
+of Opinion, should prove a real Cause
+of Quarrel among Men; though it often serves
+as a <hi rend='italic'>Word of War</hi>, or a <hi rend='italic'>Term</hi> whereby to give
+Notice for Onset. On the contrary, I had observed
+that wherever People are united by <hi rend='italic'>Interest</hi>,
+though of a thousand opposite Sects, Persuasions
+<pb n='072'/><anchor id='Pg072'/>
+and Professions, they never fail to join
+in the Maintenance and Defence of <emph>common
+Rights</emph>.
+</p>
+
+<p>
+I, therefore, did not fear the <hi rend='italic'>Roman Catholics</hi>,
+as having a different <hi rend='italic'>Religion</hi>, but as having
+an <hi rend='italic'>Interest</hi> that was different from the Interest
+of <hi rend='italic'>Protestants</hi>. Were they a Compound of all
+the Follies, Absurdities, and Contradictions that
+ever were generated by Monster-bearing Superstition,
+had their Interest bound them to us, I
+should not have feared their <hi rend='italic'>Fealty</hi>.
+</p>
+
+<p>
+But this was not the Case. The <hi rend='italic'>French</hi> Invasion
+of <hi rend='italic'>Great Britain</hi> was headed by a Person
+who was, by Birth, Education, Principle, and
+Interest, an Enemy to the Freedom and Rights
+of a Constitution that was established on the Dispossession
+of his Ancestors; and he was, consequently,
+an Enemy to the general Change of
+Privilege and Property, that ensued on the said
+Establishment. The said Change, as we all
+know, was to the Disadvantage of <hi rend='italic'>Roman Catholics</hi>.
+Had the Invader prevailed, a Change
+would again have ensued, in their Favour.
+Men naturally with Success to an Event from
+whence they propose Benefit; and it is as natural
+for them to act conformable to those Wishes.
+</p>
+
+<p>
+Had <hi rend='italic'>Roman Catholics</hi> been possessed of an unrestrained
+Property, along with the other Liberties,
+Blessings, and Enjoyments, which they
+derived, in common with us, from the Establishment
+at the Revolution, no spiritual or
+temporal Power on Earth could have tempted
+them to permit, much less to wish, a Change
+of a Constitution whose Equal they could not
+find upon Earth.
+</p>
+
+<p>
+But as this was very far from being the Fact,
+I feared that <hi rend='italic'>Interest</hi> might prove an Incentive
+<pb n='073'/><anchor id='Pg073'/>
+to <emph>Desire</emph>; and Desire equally prove an Incentive
+to <emph>Action</emph>; and, I am not ashamed to confess,
+that my Expectations were greatly, though happily,
+disappointed, by the Steadiness of their
+peaceful and loyal Demeanour on that trying
+Occasion.
+</p>
+
+<p>
+Believe me, my Friend, at the Time that I
+wrote those Papers, which have given you so
+much Offence, I looked upon the <hi rend='italic'>Papists</hi> of this
+Kingdom, by the Patronage of <hi rend='italic'>France</hi> and
+<hi rend='italic'>Spain</hi>, by their Numbers, by their Wealth, and by
+their Union with each other, to be vastly superior
+to <hi rend='italic'>Irish Protestants</hi>, in Power; and my Spirit
+of Opposition rose, in Proportion to my Idea
+of their Ability. But neither then, before, nor
+since, did I ever mean to excite any Action, or
+Intention, against the Weak, or the Oppressed,
+the Fallen, or the Afflicted.
+</p>
+
+<p>
+When <hi rend='italic'>Brutus</hi> unsheathed the reluctant Sword
+of Freedom against his Friend, Humanity must
+suppose that his Heart was wrung with Compunction,
+while his Country enjoined and impelled
+the Blow.
+</p>
+
+<p>
+But further, Sir, there is a very wide Difference
+between a <hi rend='italic'>Popish Regency</hi> and a <hi rend='italic'>Popish
+People</hi>. The whole Intent and Virulence, as
+you call it, of my Papers, is pointed and levelled
+against the <emph>One</emph>, but not a Syllable uttered,
+from End to End, against the <emph>Other</emph>. A <hi rend='italic'>Popish
+Regency</hi>, in Temporals alike as in Spirituals, I
+held to be, by Principle, an arbitrary and oppressive
+Government; but I held a <hi rend='italic'>Popish People</hi>
+to be, of all People, the most amenable and
+submissive to Rulers, whatever the Form or
+Nature of that State may be, under which they
+shall happen to be subjected. And, on this
+very Account, I dreaded them the more, should
+<pb n='074'/><anchor id='Pg074'/>
+they become passive Instruments in the Hand of
+a Papal Dictator.
+</p>
+
+<p>
+To apply a sure Test to the Propriety, or Impropriety,
+of my Apprehensions, at the Period
+when I wrote the <hi rend='italic'>Farmer's Letters</hi>, let us suppose
+that no one of the Penal Laws, which
+were instituted during the Reign of her Majesty
+Queen <hi rend='italic'>Anne</hi>, had yet passed into Form,
+but that Matters had remained in the same Situation,
+in which the <hi rend='italic'>Monarch</hi>, of <hi rend='italic'>humane</hi>, as well
+as <hi rend='italic'>glorious Memory</hi>, had left this unhappy People.
+Well, what would have been the Consequence?
+Would <hi rend='italic'>Papists</hi>, in that Case, have
+been less amenable to the Government, by
+which they had been favoured, supported, and
+cherished? Would they have been the forwarder
+to bring Damage and Destruction on a Country,
+because their own Interest was connected
+therewith, and the Fortunes of their Posterity
+deposited therein? Would they have been the
+readier to attempt the Overthrow of our beneficent
+Constitution, because they enjoyed the Privileges
+and Advantages thereof? No, Sir, no.
+The Absurdity of the Supposition is inclusive of
+the Answer. Had this been the Case, the <hi rend='italic'>Farmer's
+Letters</hi> would not have existed to have
+caused the Renewal of our Acquaintance.
+</p>
+
+<p>
+I have read and noted many Instances, in free
+States and Commonwealths, where <hi rend='italic'>Liberty</hi>, when
+fermented into <hi rend='italic'>Licentiousness</hi>, hath occasioned
+many partial Struggles for Power, many Broils
+and Factions, and much Disturbance to the
+Community. But very few are the Instances of
+the Insurrection of any People, who have not
+been goaded thereto by Severity and Oppression.
+The inoffensive Stag grows formidable when <hi rend='italic'>at
+<pb n='075'/><anchor id='Pg075'/>
+Bay</hi>. The Worm turneth not, till it receiveth
+a Crush.
+</p>
+
+<p>
+I forget the Book, though I remember the
+Passage, where a Prince demanded of his favourite
+Minister, what he should do with a
+Number of the Commons and Nobility, whom
+he had suppressed and taken Captive in the Act
+of Rebellion? The Minister answered, <hi rend='italic'>Put
+them, and their Adherents, instantly to Death</hi>. No,
+replied the Prince, that were an Act of such
+Bloodshed and Barbarity, as neither Fear nor
+Revenge shall persuade me to perpetrate. <hi rend='italic'>Then,
+grant them all free Pardon</hi>, rejoined the Minister.
+How! said the Prince, must Rebellion
+go altogether unpunished? There is no Medium
+that can assure your Safety, answered the
+Minister; you must either pull this Party wholly
+up by the Root, so as to leave no Fibre from
+whence future Enmity may grow; or else, you
+must change that Enmity into Friendship, by
+binding their Gratitude to your Person and Interest,
+with the kindliest of all Connections,
+that of your Goodness and Favour. <hi rend='italic'>A partial
+Punishment will be too little for your Safety; a partial
+Pardon will not be enough.</hi> You must either
+wholly annihilate their Power, by their <hi rend='italic'>Death</hi>;
+or derive Strength to yourself, from that Power,
+by their <hi rend='italic'>Friendship</hi>.
+</p>
+
+<p>
+By disarming our Enemies, the utmost we
+can hope, is, to render them impotent. The
+Diminution of <emph>their</emph> Power adds nothing to our
+<emph>own</emph>. Repentance is never so permanent or sincere,
+as when preceded by Pardon; and Favour
+is, as the polar Attraction, to Inclination. Is
+there a Man whose Love and Gratitude you
+desire to engage? Common Sense will direct
+you to do him a Benefit. Would you bind him
+<pb n='076'/><anchor id='Pg076'/>
+to your Service with Hoops of Steel? You
+must make it his Interest, as well as his Duty,
+to befriend you.
+</p>
+
+<p>
+It is, by no means, my Intention to arraign
+either the Wisdom or good Policy of our Forefathers.
+But all Men are, in some Degree,
+fallible, as well in the congregate, as in the individual;
+and the Shrewd may err as much,
+by over-reaching their Aim, as the Ignorant,
+by falling short, or deviating from it.
+</p>
+
+<p>
+But, had a hundred <hi rend='italic'>Pitts</hi>, and a hundred
+<hi rend='italic'>Cecils</hi>, composed the Senate of our Ancestors, at
+the Time that those <hi rend='italic'>Penal Laws</hi> were enacted;
+had those Laws been ever so wise and so just,
+so wholesome and necessary, and well suited to
+the Season; is that a Reason that they should
+<emph>continue so</emph> to the End of Time? In a World
+where nothing is permanent; where Modes,
+Manners, Principles, and Practice are at a Flux;
+where Life is uncertain, and all it contains
+changeable; Nature and Reason will conform to
+Situation and Circumstance; and where <hi rend='italic'>Causes</hi>
+have ceased, in any Degree, the <hi rend='italic'>Consequences</hi>
+ought to cease in the same Proportion.
+</p>
+
+<p>
+It is not now with <hi rend='italic'>Rome</hi> as it was in the Days
+when Princes held her Steed, and Emperors
+her Stirrup. The Kings of the Earth have,
+pretty clearly, resumed her Usurpations and
+Acquisitions of temporal Dominion. It is not
+now, as it was when she cried Peace! and it became
+Peace; or when the Breath of her Mandate
+kindled the Nations to Battle. Even his
+<hi rend='italic'>Holiness</hi> is, now, but a poor limited Prince, pent
+up within his little <hi rend='italic'>Italian</hi> Demesne. If some few
+still acknowledge to hold of his Authority, it
+is a Homage of Words, and not of Facts;
+they will not acknowledge to hold of his Power.
+<pb n='077'/><anchor id='Pg077'/>
+He is restored to the quiet and unenvied Possession
+of all the Lordship and Interest he can acquire
+in Heaven. But the Sceptre, even of his
+spiritual Dominion upon Earth, is, of late, as
+I take it, most wonderfully shortened.
+</p>
+
+<p>
+Matters are much altered with the ecclesiastical
+World, even since I wrote the Letters that
+have roused your Spleen. Whether it be through
+a Decline of the <hi rend='italic'>Romish</hi> Religion, in particular;
+or, possibly, through a Decline of all Religion,
+in general; the pontifical and episcopal Dictatorship
+and Authority are wofully fallen, from the
+Chair of Infallibility, where they had been seated
+by Opinion. The Sons of the most bigotted
+Ancestors do now perceive, that Piety and Immorality
+are not rightly consistent. And even
+the vulgar and ignorant, among the <hi rend='italic'>Roman</hi> Laity,
+would grumble at departing from an Inch
+of their Property, though the Priest should
+advise, and the Pope, himself, should enjoin
+it.
+</p>
+
+<p>
+But, Sir, if the Change of Times, and Principles,
+Situation, and Circumstances; if the
+Change of every Cause that produced those
+penal Laws, have not availed for a Change of
+<hi rend='italic'>Consequences</hi>; for some Mitigation or Abatement
+of their Rigour, toward these my unhappy Brethren,
+the <hi rend='italic'>Roman Catholics of Ireland</hi>: If no
+Argument, I say, that is taken from Changes,
+may avail for the Purpose, I will take one from
+Permanence and Duration itself, that shall strike
+Light and Conviction to the Eye of every Beholder;
+that Power may <emph>gainsay</emph>, but cannot
+<emph>refute</emph>; that Malevolence may <emph>dispute</emph>, but never
+can <emph>answer</emph>.
+</p>
+
+<p>
+About six Generations have now passed away,
+according to the Rates of Purchase and Estimate
+<pb n='078'/><anchor id='Pg078'/>
+of the Life of Man, since these People have offended
+in Word or in Deed. No Riotings have
+been heard in their Houses, no Complainings
+in their Streets; they have been silent and harmless
+as Sheep before their Sheerers. Our Parties,
+Factions, and Insurrections, as they are merrily
+stiled in <hi rend='italic'>England</hi>, have been all among ourselves;
+this People were neither Actors nor
+Partakers therein. They have offered themselves
+to our Fleets, and to our Armies; to tend our
+Persons, to till our Grounds, to hew our Wood,
+and to draw our Water. Where we admit them
+to fight for us, they have ever proved valiant;
+where we admit them to serve us, they are found
+loving, observant, and faithful. Temptations
+have come to their Doors and called them forth;
+the Contagion of Rebellion hath broken out
+among their Neighbours; they have yet remained
+quiet, and continued untainted; still
+loyal to their Sovereign, amenable to Government,
+and submissive to Law, through a long
+and trying Succession of about seventy Years,
+they have scarce appeared to repine in the midst
+of their Calamities.
+</p>
+
+<p>
+When I look back on the querulous and restless
+Nature of Man: When I trace the human
+Propensities through the Records of Ages and
+Nations: In all the Histories of those States
+who had least Cause of Complaint: Throughout
+the Commonwealths of <hi rend='italic'>Asia Minor</hi>, the
+<hi rend='italic'>Archipelago</hi>, the <hi rend='italic'>Grecian Continent</hi>,
+<hi rend='italic'>Italy</hi>, the Islands
+of the <hi rend='italic'>Mediterranean</hi>, &amp;c. where the RIGHTS
+OF NATURE, under Forms of various Institution,
+were ASSERTED BY LIBERTY AND
+GUARDED BY LAW: Where the ASSURANCE
+OF PROPERTY gave most REASON
+FOR CONTENT: I can find but few
+<pb n='079'/><anchor id='Pg079'/>
+Instances of any People who, through such a
+Length of Time, have continued firm and unshaken,
+in an uninterrupted Loyalty and Submission
+to Government.
+</p>
+
+<p>
+What then, do we look for further? What
+Proofs do ye yet require, of Peacefulness and
+Attachment at the Hands of these our Brethren?
+Is no Period to be put to their State
+of Probation? Must they <emph>for ever</emph> keep out
+upon <emph>Quarantine</emph>, without Harbour or Hopes
+of Rest or Reconciliation? That were hard,
+indeed.
+</p>
+
+<p>
+If it is Revenge that we seek, they have,
+already, suffered enough, not for their own
+Faults, but for the Hostility of their Forefathers.
+If we seek our Safety, alone; let us chace <emph>them,
+at once, from Country and Community</emph>; or put
+an <emph>End to our domestic Fears</emph>, by giving them
+Cause to defend us.
+</p>
+
+<p>
+Indeed, Sir, neither common Sense, nor Sense
+of any Kind, can possibly suppose, That Acts
+of Kindness which have been, from the Beginning
+of the World, the Cement of Friendship
+to all other People, should prove the reverse to
+these People alone.
+</p>
+
+<p>
+Had they been to us, as the Swallow, in Autumn,
+who forsakes all Connections on the Approach
+of Inclemency, I should never have
+pleaded for any Confidence in them. But a People,
+who, through a Winter of seventy Years
+Continuance, have never failed, or forsaken, or
+given us Cause of Offence, surely merit some
+Consideration, some grateful and chearing Ray
+to warm them to a Sense that <hi rend='italic'>Protestants</hi> are not,
+by Choice, of a cruel, unforgiving, and malevolent
+Nature.
+</p>
+
+<pb n='080'/><anchor id='Pg080'/>
+
+<p>
+Lastly, Sir, as I know you to be a Gentleman
+of a communicative Disposition, and that you
+were, formerly, fond of exhibiting the Sentiments
+of some of your Friends; should you
+impart this Letter to any of your popish Acquaintance,
+I doubt they might be apt to give
+me more Thanks than I am conscious I deserve.
+It is, therefore, but commonly honest, to advertise
+you, and them, that while I write in the
+Favour of <hi rend='italic'>Papists</hi>, the Interest of
+<hi rend='italic'>Protestants</hi> is
+never out of my Eye.
+</p>
+
+<p>
+When I thought your Favourites most formidable,
+I shewed I did not fear them; and
+now, that I think them impotent, let them not
+think I flatter.
+</p>
+
+<p>
+What I have hitherto hinted is but a narrow
+opening to the Concerns and Interests of an
+unhappy Country, whereof I have the Misfortune
+to be a helpless, though loving, Member.
+To promote the Advantage of <hi rend='italic'>Ireland</hi>, in any
+respect, would be, to me, the cardinal Point
+of the whole Compass of my Ambition; and
+a subsequent Letter may shew how far my Observations
+relate to the Decline, or Prosperity, of
+my Country, whenever you confer the Pleasure
+of an Answer on,
+</p>
+
+<p>
+<hi rend='italic'>Dear</hi> SIR,<lb/>
+<hi rend='italic'>Your truly affectionate</hi>, &amp;c.
+</p>
+
+</div>
+
+</body>
+<back rend="page-break-before: right">
+  <div id="footnotes">
+    <index index="toc" />
+    <index index="pdf" />
+    <head>Footnotes</head>
+    <divGen type="footnotes"/>
+  </div>
+  <div rend="page-break-before: right">
+    <divGen type="pgfooter" />
+  </div>
+</back>
+</text>
+</TEI.2>
