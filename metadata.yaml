@@ -1,0 +1,29 @@
+_repo: An-Essay-on-the-Antient-and-Modern-State-of-Ireland_27226
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Brooke, Henry
+    alias: Brooke, H. (Henry)
+    deathdate: 1783
+    gutenberg_agent_id: '32556'
+    url: http://www.gutenberg.org/2009/agents/32556
+description: ''
+gutenberg_issued: '2008-11-10'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '27226'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Ireland -- History'
+- !lcsh 'Patrick, Saint, 373?-463?'
+- !lcsh 'Catholics -- Civil rights -- Ireland'
+- !lcc 'DA'
+- !lcsh 'Ireland -- Church history'
+title: An Essay on the Antient and Modern State of Ireland
+url: http://www.gutenberg.org/ebooks/27226
